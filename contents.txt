@@ -1,0 +1,429 @@
+Based on the provided JSON structure example and the content of the whitepaper, I'll generate a table of contents in the same JSON format, reflecting the document's hierarchy with accurate section names and anchors. I'll include children and grandchildren where applicable, ensuring the structure matches the document's organization up to three levels deep (as shown in your example).
+
+```json
+[
+  {
+    "name": "1. 背景",
+    "anchor": "section1",
+    "children": [
+      {
+        "name": "1.1 华尔街1.0：传统银行体系的兴衰",
+        "anchor": "section1-1",
+        "children": []
+      },
+      {
+        "name": "1.2 华尔街2.0：金融科技的兴起与局限",
+        "anchor": "section1-2",
+        "children": []
+      },
+      {
+        "name": "1.3 华尔街3.0：去中心化金融与公链革命",
+        "anchor": "section1-3",
+        "children": []
+      },
+      {
+        "name": "1.4 ONECHAIN — 华尔街3.0",
+        "anchor": "section1-4",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "2. 核心功能及特点",
+    "anchor": "section2",
+    "children": [
+      {
+        "name": "2.1 高性能交易支持",
+        "anchor": "section2-1",
+        "children": []
+      },
+      {
+        "name": "2.2 开发者友好",
+        "anchor": "section2-2",
+        "children": []
+      },
+      {
+        "name": "2.3 用户友好",
+        "anchor": "section2-3",
+        "children": []
+      },
+      {
+        "name": "2.4 USDH - 有利息的稳定币",
+        "anchor": "section2-4",
+        "children": []
+      },
+      {
+        "name": "2.5 基于实物资产的代币系统",
+        "anchor": "section2-5",
+        "children": []
+      },
+      {
+        "name": "2.6 节点机制",
+        "anchor": "section2-6",
+        "children": []
+      },
+      {
+        "name": "2.7 安全与信任机制",
+        "anchor": "section2-7",
+        "children": []
+      },
+      {
+        "name": "2.8 生态应用的可扩展性",
+        "anchor": "section2-8",
+        "children": []
+      },
+      {
+        "name": "2.9 模块化可配置隐私策略",
+        "anchor": "section2-9",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "3. 技术架构",
+    "anchor": "section3",
+    "children": [
+      {
+        "name": "3.1 区块链基础设施",
+        "anchor": "section3-1",
+        "children": [
+          {
+            "name": "3.1.1 存储管理",
+            "anchor": "section3-1-1",
+            "children": []
+          },
+          {
+            "name": "3.1.2 跨链桥接",
+            "anchor": "section3-1-2",
+            "children": []
+          },
+          {
+            "name": "3.1.3 加密机制",
+            "anchor": "section3-1-3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "3.2 共识层",
+        "anchor": "section3-2",
+        "children": []
+      },
+      {
+        "name": "3.3 网络层",
+        "anchor": "section3-3",
+        "children": []
+      },
+      {
+        "name": "3.4 应用层",
+        "anchor": "section3-4",
+        "children": [
+          {
+            "name": "3.4.1 智能合约模块",
+            "anchor": "section3-4-1",
+            "children": []
+          },
+          {
+            "name": "3.4.2 HOC SDK（开发工具包）",
+            "anchor": "section3-4-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "3.5 RPC 接口层",
+        "anchor": "section3-5",
+        "children": []
+      },
+      {
+        "name": "3.6 用户界面层（DApps）",
+        "anchor": "section3-6",
+        "children": []
+      },
+      {
+        "name": "3.7 共识机制",
+        "anchor": "section3-7",
+        "children": [
+          {
+            "name": "3.7.1 DPoS（委托权益证明）",
+            "anchor": "section3-7-1",
+            "children": []
+          },
+          {
+            "name": "3.7.2 DAG 共识协议",
+            "anchor": "section3-7-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "3.8 检查点（Checkpoint）",
+        "anchor": "section3-8",
+        "children": [
+          {
+            "name": "3.8.1 检查点的生成过程",
+            "anchor": "section3-8-1",
+            "children": []
+          },
+          {
+            "name": "3.8.2 检查点的关键特性",
+            "anchor": "section3-8-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "3.9 DID：去中心化身份证明",
+        "anchor": "section3-9",
+        "children": [
+          {
+            "name": "3.9.1 核心理念：多个地址，一种身份",
+            "anchor": "section3-9-1",
+            "children": []
+          },
+          {
+            "name": "3.9.2 技术实现：13 位 DID 编号",
+            "anchor": "section3-9-2",
+            "children": []
+          },
+          {
+            "name": "3.9.3 OAUTH 身份登录：Web2.0 的便捷 + Web3.0 的隐私",
+            "anchor": "section3-9-3",
+            "children": []
+          },
+          {
+            "name": "3.9.4 设计亮点",
+            "anchor": "section3-9-4",
+            "children": []
+          },
+          {
+            "name": "3.9.5 用户价值：一号通用，便捷且安全",
+            "anchor": "section3-9-5",
+            "children": []
+          },
+          {
+            "name": "3.9.6 开发者价值：精准服务、助力商业化",
+            "anchor": "section3-9-6",
+            "children": []
+          },
+          {
+            "name": "3.9.7 DID 联盟与共赢生态",
+            "anchor": "section3-9-7",
+            "children": []
+          },
+          {
+            "name": "3.9.8 真实应用场景：DeFi 与 NFT 的 DID 体验",
+            "anchor": "section3-9-8",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "3.10 零GAS：降低用户门槛，消除Web3使用障碍",
+        "anchor": "section3-10",
+        "children": [
+          {
+            "name": "3.10.1 核心理念：GAS 是技术门槛，不该是用户门槛",
+            "anchor": "section3-10-1",
+            "children": []
+          },
+          {
+            "name": "3.10.2 设计亮点：GAS 代付 SDK，链上操作无感",
+            "anchor": "section3-10-2",
+            "children": []
+          },
+          {
+            "name": "3.10.3 场景举例：OneChain 如何让区块链“消失”？",
+            "anchor": "section3-10-3",
+            "children": []
+          },
+          {
+            "name": "3.10.4 价值：用户为本，才是区块链的未来",
+            "anchor": "section3-10-4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "3.11 预言机",
+        "anchor": "section3-11",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "4. 节点策略",
+    "anchor": "section4",
+    "children": [
+      {
+        "name": "4.1.1 组织节点 - 生态网络",
+        "anchor": "section4-1-1",
+        "children": []
+      },
+      {
+        "name": "4.1.2 应用节点 - 场景创新",
+        "anchor": "section4-1-2",
+        "children": []
+      },
+      {
+        "name": "4.1.3 资产节点 - 面向机构",
+        "anchor": "section4-1-3",
+        "children": []
+      },
+      {
+        "name": "4.1.4 节点激励机制 - 基础",
+        "anchor": "section4-1-4",
+        "children": []
+      },
+      {
+        "name": "4.1.5 节点激励机制 - ONI（One Node Incentive）",
+        "anchor": "section4-1-5",
+        "children": []
+      },
+      {
+        "name": "4.1.6 节点生态共创计划",
+        "anchor": "section4-1-6",
+        "children": []
+      },
+      {
+        "name": "4.1.7 节点退出机制",
+        "anchor": "section4-1-7",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "5. 应用服务和解决方案",
+    "anchor": "section5",
+    "children": [
+      {
+        "name": "5.1 钱包服务",
+        "anchor": "section5-1",
+        "children": []
+      },
+      {
+        "name": "5.2 稳定币服务",
+        "anchor": "section5-2",
+        "children": []
+      },
+      {
+        "name": "5.3 RWA 结构化资产-服务",
+        "anchor": "section5-3",
+        "children": [
+          {
+            "name": "5.3.1 RWA",
+            "anchor": "section5-3-1",
+            "children": []
+          },
+          {
+            "name": "5.3.2 OneRWA：连接现实资产与 Web3.0 的发行平台",
+            "anchor": "section5-3-2",
+            "children": []
+          },
+          {
+            "name": "5.3.3 核心能力",
+            "anchor": "section5-3-3",
+            "children": []
+          },
+          {
+            "name": "5.3.4 场景落地：为企业和用户解决实际痛点",
+            "anchor": "section5-3-4",
+            "children": []
+          },
+          {
+            "name": "5.3.5 RWA 结构化创新：让真实资产具备“组合”、“定价”与“交易性”",
+            "anchor": "section5-3-5",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "5.4 电商消费返利",
+        "anchor": "section5-4",
+        "children": []
+      },
+      {
+        "name": "5.5 去中心化交易所服务",
+        "anchor": "section5-5",
+        "children": []
+      },
+      {
+        "name": "5.6 跨链资产服务",
+        "anchor": "section5-6",
+        "children": []
+      },
+      {
+        "name": "5.7 用户身份管理与数据互通服务",
+        "anchor": "section5-7",
+        "children": []
+      },
+      {
+        "name": "5.8 质押借贷服务",
+        "anchor": "section5-8",
+        "children": []
+      },
+      {
+        "name": "5.9 娱乐与游戏资产服务",
+        "anchor": "section5-9",
+        "children": []
+      },
+      {
+        "name": "5.10 简化游戏资产服务",
+        "anchor": "section5-10",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "6. 代币经济学",
+    "anchor": "section6",
+    "children": [
+      {
+        "name": "6.1 OCT 代币概述",
+        "anchor": "section6-1",
+        "children": []
+      },
+      {
+        "name": "6.2 OCT 代币的应用场景",
+        "anchor": "section6-2",
+        "children": []
+      },
+      {
+        "name": "6.3 OCT 代币分配",
+        "anchor": "section6-3",
+        "children": []
+      },
+      {
+        "name": "6.4 OCT TGE",
+        "anchor": "section6-4",
+        "children": []
+      },
+      {
+        "name": "6.5 链上治理",
+        "anchor": "section6-5",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "7. 路线图",
+    "anchor": "section7",
+    "children": [
+      {
+        "name": "2025 第一阶段：主网发布与生态启动",
+        "anchor": "section7-1",
+        "children": []
+      },
+      {
+        "name": "2026 第二阶段：生态扩展与跨链合作",
+        "anchor": "section7-2",
+        "children": []
+      },
+      {
+        "name": "2027 第三阶段：技术优化与应用深化",
+        "anchor": "section7-3",
+        "children": []
+      }
+    ]
+  }
+]
