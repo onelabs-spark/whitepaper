@@ -1,6 +1,3 @@
-Based on the provided JSON structure example and the content of the whitepaper, I'll generate a table of contents in the same JSON format, reflecting the document's hierarchy with accurate section names and anchors. I'll include children and grandchildren where applicable, ensuring the structure matches the document's organization up to three levels deep (as shown in your example).
-
-```json
 [
   {
     "name": "1. 背景",
