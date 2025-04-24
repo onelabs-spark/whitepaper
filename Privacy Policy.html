@@ -1,0 +1,148 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {};
+        var gk_fileData = {};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for One Chain Labs</h1>
+
+    <p><strong>Last Updated: April 24, 2025</strong></p>
+
+    <h2>Introduction</h2>
+
+    <p>One Chain Labs ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website, user interface, and other offerings located at onelabs.cc, bridge.onelabs.cc, and docs.onelabs.cc (collectively, the "Interface"). The Interface facilitates interaction with the One Chain decentralized cryptographic protocols ("Protocol"), which we do not own or control. Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not use the Interface.</p>
+
+    <h2>Information We Collect</h2>
+
+    <p>We may collect the following types of information when you use the Interface:</p>
+    <ul>
+        <li><strong>Personal Information:</strong> We may collect personal information such as your email address when you contact us or create an account.</li>
+        <li><strong>Usage Data:</strong> We collect information about your interactions with the Interface, such as IP addresses, device identifiers, browser type, and pages visited.</li>
+        <li><strong>Blockchain Data:</strong> When you interact with the Protocol via the Interface, we may collect public wallet addresses and transaction details. Note that blockchain transactions are inherently public and not directly controlled by us.</li>
+        <li><strong>User Content:</strong> Any content you upload, such as text, files, or other data, may be collected as described in the Terms of Service.</li>
+    </ul>
+
+    <h2>How We Use Your Information</h2>
+
+    <p>We use the information we collect for the following purposes:</p>
+    <ul>
+        <li>To provide, operate, and improve the Interface.</li>
+        <li>To monitor and analyze usage patterns to enhance user experience.</li>
+        <li>To comply with Applicable Laws, including anti-money laundering and sanctions regulations.</li>
+        <li>To communicate with you, including responding to inquiries and sending updates about the Interface.</li>
+    </ul>
+
+    <h2>How We Share Your Information</h2>
+
+    <p>We may share your information in the following circumstances:</p>
+    <ul>
+        <li>With third-party service providers who assist us in operating the Interface (e.g., hosting providers).</li>
+        <li>With legal authorities if required by Applicable Law or to protect our rights.</li>
+        <li>In connection with a merger, acquisition, or sale of assets, where your information may be transferred as part of the transaction.</li>
+    </ul>
+
+    <h2>Your Rights and Choices</h2>
+
+    <p>Depending on your jurisdiction, you may have the following rights regarding your personal information:</p>
+    <ul>
+        <li><strong>Access:</strong> You may request access to the personal information we hold about you.</li>
+        <li><strong>Correction:</strong> You may request correction of inaccurate information.</li>
+        <li><strong>Deletion:</strong> You may request deletion of your personal information, subject to legal obligations.</li>
+    </ul>
+    <p>To exercise these rights, please contact us at <a href="mailto:contact@onelabs.cc">contact@onelabs.cc</a>. Note that blockchain data, such as wallet addresses, cannot be deleted due to the immutable nature of blockchain technology.</p>
+
+    <h2>Data Security</h2>
+
+    <p>We implement reasonable technical and organizational measures to protect your information. However, no system is completely secure, and we cannot guarantee the security of your data, especially given the public nature of blockchain transactions.</p>
+
+    <h2>International Data Transfers</h2>
+
+    <p>Your information may be transferred to and processed in countries other than your own, including the British Virgin Islands, where we are based. We take steps to ensure that such transfers comply with Applicable Laws.</p>
+
+    <h2>Changes to This Privacy Policy</h2>
+
+    <p>We may update this Privacy Policy from time to time. If we make changes, we will notify you by posting the updated Privacy Policy on the Interface. Your continued use of the Interface after such changes constitutes your acceptance of the updated Privacy Policy.</p>
+
+    <h2>Contact Us</h2>
+
+    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+    <p>Email: <a href="mailto:contact@onelabs.cc">contact@onelabs.cc</a></p>
+</body>
+</html>
