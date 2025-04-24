@@ -1,6 +1,6 @@
 [
     {
-      "name": "5. Token Economics",
+      "name": "Token Economics",
       "anchor": "section5",
       "children": [
         {
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "name": "5.1 OCT Token Overview",
+      "name": "1. OCT Token Overview",
       "anchor": "section5-1",
       "children": [
         {
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "name": "5.2 OCT Token Use Cases",
+      "name": "2. OCT Token Use Cases",
       "anchor": "section5-2",
       "children": [
         {
@@ -46,15 +46,15 @@
       ]
     },
     {
-      "name": "5.3 OCT Token Allocation",
+      "name": "3. OCT Token Allocation",
       "anchor": "section5-3"
     },
     {
-      "name": "5.4 OCT TGE",
+      "name": "4. OCT TGE",
       "anchor": "section5-4"
     },
     {
-      "name": "5.5 On-Chain Governance",
+      "name": "5. On-Chain Governance",
       "anchor": "section5-5",
       "children": [
         {
