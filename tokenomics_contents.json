@@ -1,6 +1,6 @@
 [
     {
-      "name": "5. 代币经济学",
+      "name": "代币经济学",
       "anchor": "section5",
       "children": [
         {
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "name": "5.1 OCT 代币概述",
+      "name": "1. OCT 代币概述",
       "anchor": "section5-1",
       "children": [
         {
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "name": "5.2 OCT 代币的应用场景",
+      "name": "2. OCT 代币的应用场景",
       "anchor": "section5-2",
       "children": [
         {
@@ -46,15 +46,15 @@
       ]
     },
     {
-      "name": "5.3 OCT 代币分配",
+      "name": "3. OCT 代币分配",
       "anchor": "section5-3"
     },
     {
-      "name": "5.4 OCT TGE",
+      "name": "4. OCT TGE",
       "anchor": "section5-4"
     },
     {
-      "name": "5.5 链上治理",
+      "name": "5. 链上治理",
       "anchor": "section5-5",
       "children": [
         {
