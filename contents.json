@@ -279,19 +279,19 @@
   },
   {
     "name": "5. 路线图",
-    "anchor": "section6",
+    "anchor": "section5",
     "children": [
       {
         "name": "2025 第一阶段：主网发布与生态启动",
-        "anchor": "section6-1"
+        "anchor": "section5-1"
       },
       {
         "name": "2026 第二阶段:生态扩展与跨链合作",
-        "anchor": "section6-2"
+        "anchor": "section5-2"
       },
       {
         "name": "2027 第三阶段:技术优化与应用深化",
-        "anchor": "section6-3"
+        "anchor": "section5-3"
       }
     ]
   }
