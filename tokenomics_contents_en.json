@@ -1,76 +1,76 @@
 [
     {
-      "title": "5. Token Economics",
+      "name": "5. Token Economics",
       "anchor": "section5",
       "children": [
         {
-          "title": "OneChain’s economic model is designed for stability and sustainability, leveraging the native token OCT and supporting incentives to drive public chain ecosystem prosperity.",
+          "name": "OneChain’s economic model is designed for stability and sustainability, leveraging the native token OCT and supporting incentives to drive public chain ecosystem prosperity.",
           "anchor": null
         }
       ]
     },
     {
-      "title": "5.1 OCT Token Overview",
+      "name": "5.1 OCT Token Overview",
       "anchor": "section5-1",
       "children": [
         {
-          "title": "Total Supply: 10 Billion Tokens",
+          "name": "Total Supply: 10 Billion Tokens",
           "anchor": null
         },
         {
-          "title": "Token Features: OCT is OneChain’s native token with the following core functions:",
+          "name": "Token Features: OCT is OneChain’s native token with the following core functions:",
           "anchor": null
         }
       ]
     },
     {
-      "title": "5.2 OCT Token Use Cases",
+      "name": "5.2 OCT Token Use Cases",
       "anchor": "section5-2",
       "children": [
         {
-          "title": "On-Chain Transactions and Payments:",
+          "name": "On-Chain Transactions and Payments:",
           "anchor": null
         },
         {
-          "title": "Mining Rewards:",
+          "name": "Mining Rewards:",
           "anchor": null
         },
         {
-          "title": "Ecosystem Support:",
+          "name": "Ecosystem Support:",
           "anchor": null
         },
         {
-          "title": "On-Chain Governance:",
+          "name": "On-Chain Governance:",
           "anchor": null
         }
       ]
     },
     {
-      "title": "5.3 OCT Token Allocation",
+      "name": "5.3 OCT Token Allocation",
       "anchor": "section5-3"
     },
     {
-      "title": "5.4 OCT TGE",
+      "name": "5.4 OCT TGE",
       "anchor": "section5-4"
     },
     {
-      "title": "5.5 On-Chain Governance",
+      "name": "5.5 On-Chain Governance",
       "anchor": "section5-5",
       "children": [
         {
-          "title": "OneChain’s governance system is referendum-based, allowing anyone to submit proposals, which are finalized through community voting. Voting rights are held by OCT holders, with weight tied to the amount and duration of locked OCT (belief multiplier). Nodes (validators) do not directly vote but can participate indirectly by holding OCT.",
+          "name": "OneChain’s governance system is referendum-based, allowing anyone to submit proposals, which are finalized through community voting. Voting rights are held by OCT holders, with weight tied to the amount and duration of locked OCT (belief multiplier). Nodes (validators) do not directly vote but can participate indirectly by holding OCT.",
           "anchor": null
         },
         {
-          "title": "Proposal Submission:",
+          "name": "Proposal Submission:",
           "anchor": null
         },
         {
-          "title": "Referendum Process:",
+          "name": "Referendum Process:",
           "anchor": null
         },
         {
-          "title": "Voting Rules:",
+          "name": "Voting Rules:",
           "anchor": null
         }
       ]
