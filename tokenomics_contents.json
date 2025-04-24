@@ -1,76 +1,76 @@
 [
     {
-      "title": "5. 代币经济学",
+      "name": "5. 代币经济学",
       "anchor": "section5",
       "children": [
         {
-          "title": "One Chain的经济模型设计基于稳定与可持续发展原则，结合生态的实际需求，通过原生代币 OCT 及其配套激励机制，推动公链生态的繁荣发展。",
+          "name": "One Chain的经济模型设计基于稳定与可持续发展原则，结合生态的实际需求，通过原生代币 OCT 及其配套激励机制，推动公链生态的繁荣发展。",
           "anchor": null
         }
       ]
     },
     {
-      "title": "5.1 OCT 代币概述",
+      "name": "5.1 OCT 代币概述",
       "anchor": "section5-1",
       "children": [
         {
-          "title": "总发行量：100亿枚",
+          "name": "总发行量：100亿枚",
           "anchor": null
         },
         {
-          "title": "代币特性：OCT是OneChain的原生代币，具有以下核心功能：",
+          "name": "代币特性：OCT是OneChain的原生代币，具有以下核心功能：",
           "anchor": null
         }
       ]
     },
     {
-      "title": "5.2 OCT 代币的应用场景",
+      "name": "5.2 OCT 代币的应用场景",
       "anchor": "section5-2",
       "children": [
         {
-          "title": "链上交易与支付：",
+          "name": "链上交易与支付：",
           "anchor": null
         },
         {
-          "title": "挖矿奖励 ：",
+          "name": "挖矿奖励 ：",
           "anchor": null
         },
         {
-          "title": "生态扶持 ：",
+          "name": "生态扶持 ：",
           "anchor": null
         },
         {
-          "title": "链上治理：",
+          "name": "链上治理：",
           "anchor": null
         }
       ]
     },
     {
-      "title": "5.3 OCT 代币分配",
+      "name": "5.3 OCT 代币分配",
       "anchor": "section5-3"
     },
     {
-      "title": "5.4 OCT TGE",
+      "name": "5.4 OCT TGE",
       "anchor": "section5-4"
     },
     {
-      "title": "5.5 链上治理",
+      "name": "5.5 链上治理",
       "anchor": "section5-5",
       "children": [
         {
-          "title": "OneChain 的治理系统基于公投，任何人都可以提出提案，但最终需要通过社区投票来决定是否通过。投票权由 OCT 持有者掌握，投票权重与锁定的 OCT 数量和锁定时间（信念乘数）相关。节点（验证者）虽然不直接参与治理投票，但可以通过持有 OCT 代币间接参与。",
+          "name": "OneChain 的治理系统基于公投，任何人都可以提出提案，但最终需要通过社区投票来决定是否通过。投票权由 OCT 持有者掌握，投票权重与锁定的 OCT 数量和锁定时间（信念乘数）相关。节点（验证者）虽然不直接参与治理投票，但可以通过持有 OCT 代币间接参与。",
           "anchor": null
         },
         {
-          "title": "提案提交：",
+          "name": "提案提交：",
           "anchor": null
         },
         {
-          "title": "公投流程：",
+          "name": "公投流程：",
           "anchor": null
         },
         {
-          "title": "投票规则：",
+          "name": "投票规则：",
           "anchor": null
         }
       ]
