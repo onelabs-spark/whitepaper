@@ -1,0 +1,43 @@
+[
+  
+    {
+      "name": "1. 组织节点 - 生态网络",
+      "anchor": "section1"
+    },
+    {
+      "name": "2. 应用节点 - 场景创新",
+      "anchor": "section2"
+    },
+    {
+      "name": "3. 资产节点 - 面向机构",
+      "anchor": "section3"
+    },
+    {
+      "name": "4. 节点激励机制 - 基础",
+      "anchor": "section4"
+    },
+    {
+      "name": "5. 节点激励机制 - ONI（One Node Incentive）",
+      "anchor": "section5"
+    },
+    {
+      "name": "6. 节点生态共创计划",
+      "anchor": "section6",
+      "children": [
+        {
+          "name": "OneChain节点不仅是技术运行的基础，更是生态共创的核心参与者。",
+          "anchor": "section6-1"
+        }
+      ]
+    },
+    {
+      "name": "7. 节点退出机制",
+      "anchor": "section7",
+      "children": [
+        {
+          "name": "为保障网络的稳定性和安全性，OneChain制定了严格的节点退出机制。",
+          "anchor": "section7-1"
+        }
+      ]
+    }
+  ],
