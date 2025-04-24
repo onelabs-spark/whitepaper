@@ -460,7 +460,7 @@ OneChain开发者与企业提供友好的开发工具，快速构建个性化的
 - 激励机制的调整（如权重系数、奖励规则）将通过链上治理实现。节点和持币用户可以通过提案和投票共同决定不同行为的奖励权重及比例，进一步增强社区的参与度和公平性。
 - 基础奖励
 	- 根据每个节点的 OCT 总质押量，按比例分配当前周期内的 OCT 奖励：
-	- 公式： R(i) = \frac{S(i)}{\sum_{j=1}^{N} S(j)} \times T_{\text{ocT}} 
+	- 公式： ![noderewards](https://statics-testnet.onelabs.cc/noderewards.png "noderewards")
 	- R(i)：节点 i 的基础奖励
 	- S(i)：节点 i 的总质押 OCT 数量
 	- N：总节点数量
@@ -474,7 +474,7 @@ OneChain开发者与企业提供友好的开发工具，快速构建个性化的
 	- 应用节点的贡献度：基于应用产生的交易数量和交易活跃度。
 	- 资产节点的贡献度：基于资产产生的交易数量和交易活跃度。
 - 贡献奖励公式
-	- 公式： RE(i) = \frac{C(i)}{\sum_{j=1}^{N} C(j)} \times T_{\text{USDH}} 
+	- 公式： ![nodeoni](https://statics-testnet.onelabs.cc/nodeoni.png "nodeoni")
 	- RE(i)：节点 i 的额外奖励
 	- C(i)：节点 i 的综合贡献度计算值
 	- TUSDH：当前周期的USDH奖励池
