@@ -1,8 +1,3 @@
-To translate the "Whitepaper with Anchors" markdown file from Chinese to English, I'll convert all text content (headings, paragraphs, lists, etc.) while preserving the markdown structure, anchors, images, and formatting (e.g., bold, italic, tables). The anchors will remain unchanged as they are identifiers (e.g., `section1`, `section1-1`) and not language-specific. The translation will be accurate, natural, and contextually appropriate for a blockchain whitepaper, ensuring technical terms (e.g., "DeFi", "stablecoin", "DPoS") are retained or translated consistently with industry standards. The output will be wrapped in a new `<xaiArtifact>` tag with a unique `artifact_id` and `artifact_version_id`, as this is a new version of the document.
-
-Below is the translated markdown document:
-
-
 ![ONECHAIN WALLSTREET 3.0](./image/cover.png "Cover")
 
 # 1. Background {/* {#section1} */}
@@ -115,19 +110,19 @@ OneChain’s highly modular technical architecture adapts to diverse business sc
 
 ## 2.9 Modular Configurable Privacy Strategies {/* {#section2-9} */}
 
-OneChain offers robust privacy protection with configurable strategies. Users or applications can set transaction details (e.g., amount, currency, sender/receiver) to be visible only to recipients or whitelisted nodes. It also supports bundling multiple transactions to obscure individual details. This mechanism provides highly compliant privacy protection for sensitive industries like finance, healthcare, and supply chains.
+OneChain offers robust privacy protection with configurable privacy strategies. Users or applications can set transaction details (e.g., amount, currency, sender/receiver) to be visible only to recipients or designated whitelisted nodes. It also supports bundling multiple transactions to obscure individual transaction details. This mechanism provides highly compliant privacy protection for sensitive industries like finance, healthcare, and supply chains.
 
-**Case Study**: A company uses blockchain for payroll, keeping amounts confidential while maintaining transparent transactions, enabling transparent company processes and allowing users to auto-generate work resumes from on-chain data.
+**Case Study**: A company uses blockchain for payroll, keeping amounts confidential while maintaining transparent transactions, enabling transparent company processes and allowing users to generate work resumes from on-chain data.
 
 ---
 
 # 3. Technical Architecture {/* {#section3} */}
 
-OneChain embraces the vision of bridging Web2.0 and Web3.0, aiming to close the gap between traditional internet and decentralized networks through innovative technology. Its product design focuses on building efficient, reliable infrastructure, seamlessly blending Web2.0’s convenience with Web3.0’s decentralization, security, and user sovereignty, delivering a cross-ecosystem experience for users and developers.
+OneChain is committed to bridging Web2.0 and Web3.0, using innovative technology to close the gap between traditional internet and decentralized networks. Its product design focuses on building efficient, reliable infrastructure, seamlessly integrating Web2.0’s convenience with Web3.0’s decentralization, security, and user sovereignty, providing users and developers with a cross-ecosystem experience.
 
 ![Product Architecture](./image/product.png "Product")
 
-OneChain adopts a modular, multi-layered blockchain architecture to meet diverse business needs while ensuring high performance, strong security, and excellent scalability.
+OneChain adopts a modular, multi-layered blockchain architecture to meet diverse business needs, delivering high performance, strong security, and excellent scalability.
 
 ![Technical Architecture](./image/tech.png "Tech")
 
@@ -135,29 +130,29 @@ OneChain adopts a modular, multi-layered blockchain architecture to meet diverse
 
 ### Storage Management {/* {#section3-1-1} */}
 - **Multi-Database Support**: Enables efficient data storage and access.
-- **Hot-Cold Data Separation**: Enhances storage efficiency and resource allocation.
-- **Dynamic State Leasing**: Ensures sustainable on-chain data management.
+- **Hot-Cold Data Separation**: Improves storage efficiency and optimizes resource allocation.
+- **Dynamic State Leasing**: Ensures on-chain data sustainability.
 
 ### Cross-Chain Bridging {/* {#section3-1-2} */}
-- **EVM Cross-Chain Support**: Enables interoperability with major blockchains.
+- **EVM Cross-Chain Support**: Enables interoperability with mainstream blockchains.
 - **Multi-Chain Data Interaction**: Supports cross-chain asset transfers and messaging.
 
 ### Encryption Mechanisms {/* {#section3-1-3} */}
 - **Zero-Knowledge Technology (zkLogin/zkSend)**: Provides privacy protection and efficient transmission.
 - **Multi-Signature and Offline Signing**: Enhances transaction security.
-- **Intent Signing**: Improves ease of use and security for on-chain interactions.
+- **Intent Signing**: Improves on-chain interaction usability and security.
 
 ## 3.2 Consensus Layer {/* {#section3-2} */}
 
 - **DPoS Consensus Mechanism**: Uses delegated proof-of-stake for high performance and decentralization balance.
-- **DAG Consensus Protocol**: Integrates DAG (e.g., Narwhal, Mysticeti, Bullshark) for high throughput and fast confirmation.
+- **DAG Consensus Protocol**: Integrates DAG technologies (e.g., Narwhal, Mysticeti, Bullshark) for high throughput and fast confirmation.
 - **Instant Finality**: Ensures real-time transaction confirmation and security.
 - **Behavioral Value Incentives**: Rewards nodes for positive network contributions.
 - **Dynamic Node Pool**: Provides elastic scaling to meet growing business demands.
 
 ## 3.3 Network Layer {/* {#section3-3} */}
 
-- **Peer-to-Peer (P2P) Communication**: Ensures reliable data transmission between network nodes.
+- **Peer-to-Peer Communication (P2P)**: Ensures reliable data transmission between network nodes.
 - **Gossip Protocol**: Efficiently distributes on-chain data.
 - **Aggregator**: Provides fast data aggregation and processing.
 - **DDoS Protection**: Builds a highly secure network architecture to prevent malicious attacks.
@@ -165,20 +160,20 @@ OneChain adopts a modular, multi-layered blockchain architecture to meet diverse
 ## 3.4 Application Layer {/* {#section3-4} */}
 
 ### Smart Contract Module {/* {#section3-4-1} */}
-- **Security**: Resource-based model and built-in defenses ensure safe contract execution.
-- **Efficiency**: Object model and concurrency mechanisms improve execution speed.
-- **Upgradability**: Modular design and version control facilitate expansion.
-- **Friendly Ecosystem**: Cost-effective smart contract development tools lower barriers.
+- **Security**: Uses resource models and built-in defenses for secure contract execution.
+- **Efficiency**: Employs object models and concurrency for enhanced execution performance.
+- **Upgradability**: Supports modular design and version control for easy expansion.
+- **Ecosystem-Friendly**: Offers cost-effective smart contract development tools to lower barriers.
 
 ### HOC SDK (Development Toolkit) {/* {#section3-4-2} */}
 - **Staking and Rewards**: Supports reward distribution based on node staking.
-- **Governance Module**: Dynamic governance mechanisms enable on-chain community decisions.
-- **Incentive Programs**: Custom behavioral value incentives boost ecosystem participation.
+- **Governance Module**: Enables dynamic governance for on-chain community decisions.
+- **Incentive Programs**: Customizes behavioral value incentives to boost ecosystem participation.
 - **Cross-Chain Bridging**: Supports asset and data interoperability with other blockchains.
 
 ## 3.5 RPC Interface Layer {/* {#section3-5} */}
 
-OneChain provides multiple interaction interfaces for easy developer integration:
+OneChain provides multiple interaction interfaces for seamless developer integration:
 
 - **JSON-RPC Interface**: Standardized blockchain interaction protocol for high compatibility.
 - **GraphQL Interface**: Efficient data querying and interaction support.
@@ -187,36 +182,36 @@ OneChain provides multiple interaction interfaces for easy developer integration
 
 OneChain supports various decentralized applications (DApps) across the following scenarios:
 
-- **Official Wallet**: Offers asset management, trading, and multi-functional support.
-- **Decentralized Exchange (DEX)**: Planned, enabling decentralized asset swaps.
+- **Official Wallet**: Offers asset management, transactions, and multi-functional support.
+- **Decentralized Exchange (DEX)**: Planned, to provide decentralized asset swapping services.
 - **GameFi**: Supports economic systems for on-chain gaming applications.
-- **DeFi**: Meets needs for financial derivatives, staking, and lending.
+- **Decentralized Finance (DeFi)**: Meets needs for financial derivatives, staking, and lending.
 - **Infrastructure**: Provides on-chain service support.
-- **NFTs and Other Applications**: Supports NFT creation, trading, and various on-chain scenarios.
+- **NFTs and Other Applications**: Supports NFT creation, trading, and diverse on-chain use cases.
 
-## 3.7 Consensus Mechanisms {/* {#section3-7} */}
+## 3.7 Consensus Mechanism {/* {#section3-7} */}
 
-OneChain employs a dual architecture of **DPoS (Delegated Proof-of-Stake)** and **DAG Consensus Protocol**, combined with Narwhal’s data storage layer and Mysticeti’s consensus layer, to achieve high throughput and low-latency consensus for diverse application scenarios.
+OneChain employs a dual architecture of **DPoS (Delegated Proof-of-Stake)** and **DAG consensus protocols**, integrating Narwhal’s data storage layer and Mysticeti’s consensus layer to achieve high throughput, low latency, and reliable support for multi-scenario applications.
 
 ### 3.7.1 DPoS (Delegated Proof-of-Stake) {/* {#section3-7-1} */}
 
 - **Staking Mechanism**:
-  - Users delegate voting rights to validators by staking OneChain’s native token, HC.
-  - Validators gain weight based on staked HC and handle block generation and transaction verification.
-  - Lowers participation barriers for users while incentivizing validators to maintain network security and efficiency.
+  - Users stake OneChain’s native token (HC) to delegate voting rights to validators.
+  - Validators gain weight based on staked HC, handling block production and transaction verification.
+  - Lowers participation barriers for ordinary users while incentivizing validators to maintain network security and efficiency.
 - **Validator Election**:
-  - Each consensus cycle (Epoch) elects a group of validators via network voting to participate in block verification and consensus.
-  - At cycle’s end, validators are rewarded based on performance (e.g., transaction processing efficiency and accuracy).
+  - Each consensus cycle (Epoch) elects a validator set via network voting for block verification and consensus.
+  - At cycle end, validators are rewarded based on performance (e.g., transaction processing efficiency and accuracy).
 - **Decentralization and Flexibility**:
   - DPoS balances high performance and decentralization, ensuring security and scalability.
 
 ### 3.7.2 DAG Consensus Protocol {/* {#section3-7-2} */}
 
-OneChain integrates a DAG (Directed Acyclic Graph) structure, optimized via Narwhal and Mysticeti, for efficient transaction processing and block ordering.
+OneChain incorporates a Directed Acyclic Graph (DAG) structure, optimized with Narwhal and Mysticeti, for efficient transaction processing and block ordering.
 
 - **Narwhal Data Storage Layer**:
-  - **Role**: Focuses on efficient transaction dissemination and storage, ensuring validators access complete, consistent transaction data.
-  - **Performance**: Uses parallel data flow architecture to organize transactions into a DAG, boosting data availability and network throughput.
+  - **Role**: Focuses on efficient transaction propagation and storage, ensuring validators access complete, consistent transaction data.
+  - **Performance**: Uses parallel data flow architecture to organize transactions into a DAG, enhancing data availability and network throughput.
 - **Mysticeti Consensus Layer**:
   - **High-Performance Ordering**: Achieves consensus via three rounds of messaging, with latency as low as 0.5 seconds and throughput up to 200,000 TPS.
   - **Implicit Confirmation**: Uses implicit voting to reduce validator communication overhead and bandwidth usage.
@@ -224,20 +219,20 @@ OneChain integrates a DAG (Directed Acyclic Graph) structure, optimized via Narw
 
 ## 3.8 Checkpoint {/* {#section3-8} */}
 
-Checkpoints are OneChain’s critical mechanism for transaction confirmation and record-keeping, ensuring finality and tamper-proof transaction records.
+Checkpoints are a critical transaction confirmation and recording mechanism in OneChain, providing finality assurance to ensure transaction records are immutable.
 
 ### 3.8.1 Checkpoint Generation Process {/* {#section3-8-1} */}
 ![Checkpoint](./image/Checkpoint.png "Checkpoint")
 
-- **Transaction Submission**: Users initiate transactions via wallets or apps, generating signed transaction requests submitted to Full Nodes.
-- **Transaction Certification**: Full Nodes collect signatures from at least two-thirds (2/3) of validators, forming a Transaction Certificate, broadcast to all validators.
+- **Transaction Submission**: Users initiate transactions via wallets or applications, generating signed transaction requests submitted to Full Nodes.
+- **Transaction Certification**: Full Nodes collect signatures from at least two-thirds of validators, forming a Transaction Certificate, broadcast to all validators.
 - **Transaction Execution**:
-  - Transactions involving exclusive objects: Bypasses consensus engine for direct execution (fast path).
-  - Transactions involving shared objects: Requires DAG consensus protocol ordering before execution.
-- **Transaction Effect Signing**: Post-execution, validators sign transaction effects (e.g., object changes, Gas consumption) and return to Full Nodes. Full Nodes collect sufficient signatures to generate an Effects Certificate, proving final transaction confirmation.
+  - Transactions involving exclusive objects: Executed directly without consensus (fast path).
+  - Transactions involving shared objects: Ordered via DAG consensus protocol before execution.
+- **Transaction Effect Signing**: Post-execution, validators sign transaction effects (e.g., object changes, Gas consumption) and return them to Full Nodes. Full Nodes collect sufficient signatures to generate an Effects Certificate, confirming the transaction.
 - **Checkpoint Generation**:
   - Validators retrieve ordered transaction lists from the consensus layer, ensuring complete causal relationships.
-  - Validators assemble ordered transactions into a Checkpoint, including transaction and effect summaries.
+  - Validators assemble ordered transactions into Checkpoints, including transaction and effect summaries.
   - Checkpoints, signed by two-thirds of validators, become certified Checkpoints.
 - **Finality Assurance**: Transactions included in certified Checkpoints are permanently immutable, achieving finality.
 
@@ -245,402 +240,335 @@ Checkpoints are OneChain’s critical mechanism for transaction confirmation and
 
 - **Global Consistency**: Checkpoints ensure all validators agree on transaction order.
 - **Finality**:
-  - **Transaction Certificate**: Transactions are nearly irreversible once certified but may fail during Epoch transitions.
+  - **Transaction Certificate**: Certified transactions are nearly irreversible but may fail during Epoch transitions.
   - **Effects Certificate**: Provides stronger finality assurance.
   - **Checkpoint**: Transactions in certified Checkpoints are tamper-proof with absolute finality.
-- **Causal Integrity**: Checkpoints automatically maintain causal relationships, ensuring all dependencies are complete.
+- **Causal Integrity**: Checkpoints automatically address causal relationships, ensuring all dependencies are complete.
 - **Efficiency**: Checkpoint generation and certification take seconds, ensuring efficient network operation.
 
 ## 3.9 DID: Decentralized Identity Proof {/* {#section3-9} */}
 
-On-chain identity should not be just an address but a unified, trusted multi-address identity system.
+On-chain identity should not merely be an address but a unified, trusted multi-address identity system.
 
 ### 3.9.1 Core Concept: Multiple Addresses, One Identity {/* {#section3-9-1} */}
-In traditional blockchain models, each wallet address is treated as a separate identity. However, users often own multiple addresses, which are disconnected, leading to fragmented identity data. For example, you might use one wallet address in Protocol A and another in Application B, with no on-chain linkage between them.
 
-This fragmentation causes issues:
-- **User Experience**: Frequent account switching or re-authorizations are cumbersome.
-- **Developer Challenges**: Inability to accurately identify users hinders personalized services.
+In traditional blockchain models, each wallet address is treated as a separate identity. However, users often hold multiple addresses, which remain disconnected, fragmenting identity information. For example, a user might use one wallet address for Protocol A and another for Application B, with no on-chain linkage between the two.
 
-OneChain DID aims to resolve this by providing a unified identity across all on-chain activities. Regardless of how many addresses you use in the OneChain ecosystem, they all link to a single DID, giving you a true “on-chain ID card” that consolidates your behaviors, assets, and records.
+This fragmented identity causes several issues:
+
+- **User Experience**: Frequent account switching or repeated authorizations hinder usability.
+- **Developer Challenges**: Inability to accurately identify real users limits personalized services.
+
+OneChain DID aims to resolve this fragmentation by providing each user with a unified identity across all on-chain activities. Regardless of how many addresses a user has in the OneChain ecosystem, they all link to a single DID. This creates a true “on-chain ID card,” consolidating a user’s behaviors, assets, and records under one identity.
 
 ### 3.9.2 Technical Implementation: 13-Digit DID Number {/* {#section3-9-2} */}
-OneChain DID leverages native support in its underlying design. Each user is automatically assigned a unique 13-digit random DID number upon logging into on-chain applications, serving as their sole on-chain identity identifier.
+
+OneChain DID is natively supported by its underlying design. Each user is automatically assigned a unique 13-digit random DID number upon logging into on-chain applications, serving as their sole on-chain identity identifier.
 
 Key characteristics of the DID number:
-- **Privacy**: Contains no personal information, protecting user privacy.
-- **Scalability**: Supports binding multiple wallet addresses to meet diverse needs.
-- **Self-Management**: Identity data is fully user-controlled, stored on the blockchain, and tamper-proof with verifiability.
 
-Users can optionally maintain multiple DIDs for different scenarios. Crucially, this process is effortless—users don’t need to fill out complex forms or undergo tedious verifications. Logging in via “OAUTH Identity Login” automatically grants a DID, providing an “on-chain ID card” within the OneChain ecosystem.
+- **Privacy**: Contains no personal information, protecting user privacy.
+- **Scalability**: Supports binding multiple wallet addresses to meet diverse user needs.
+- **Self-Management**: Identity data is fully controlled by users, stored on the blockchain, and is tamper-proof and verifiable.
+
+Users can optionally maintain multiple DIDs for different scenarios. Crucially, this process is effortless for users—no complex forms or tedious verifications are required. By logging in via “OAUTH identity,” users automatically receive their DID, gaining an “on-chain ID card” within the OneChain ecosystem.
 
 ### 3.9.3 OAUTH Identity Login: Web2.0 Convenience + Web3.0 Privacy {/* {#section3-9-3} */}
-OneChain innovatively introduces OAUTH login, enabling traditional internet users to access on-chain identity seamlessly. This zero-knowledge proof-based authentication allows users to log into OneChain ecosystem applications using Web2.0 accounts (e.g., Google, Facebook), accessing on-chain services. Deep integration with login apps further optimizes this experience.
+
+OneChain innovatively introduces an OAUTH login mechanism, enabling traditional internet users to access on-chain identities seamlessly.
+
+This zero-knowledge proof-based on-chain authentication allows users to log into OneChain ecosystem applications using Web2.0 accounts (e.g., Google, Facebook), accessing on-chain services. Through deep integration with login apps, OneChain optimizes this technology for a seamless login experience.
 
 ### 3.9.4 Design Highlights {/* {#section3-9-4} */}
-- **Convenience**: No need to create new wallets or memorize mnemonic phrases; users log in with existing app accounts.
-- **Privacy Protection**: Zero-knowledge proofs ensure anonymity between on-chain identities and Web2.0 accounts, preventing data leaks.
 
-This design makes OneChain one of the few systems bridging Web2.0 and Web3.0 identities, maintaining decentralization while making blockchain more accessible, injecting vitality into the ecosystem.
+- **Convenience**: Users log in with existing app accounts, no new wallets or mnemonic phrases required.
+- **Privacy Protection**: Zero-knowledge proofs ensure on-chain identities are anonymously linked to Web2.0 accounts, preventing data leaks.
 
-### 3.9.5 User Value: One ID, Universal, Convenient, and Secure {/* {#section3-9-5} */}
-- **Single Identity Across Chains**: No need for repeated registrations or authorizations; a DID grants access to all OneChain DApps, ensuring a seamless experience.
-- **Enhanced Privacy and Security**: DIDs are not reliant on centralized servers, with data user-controlled and stored on-chain, minimizing privacy risks.
-- **Simplified Wallet Management**: Multiple wallet addresses are linked to one DID, reducing confusion and management burdens.
+This design positions OneChain as one of the few systems truly bridging Web2.0 and Web3.0 identities. It upholds decentralization while bringing blockchain closer to mainstream users, injecting vitality into the ecosystem.
 
-The DID acts as an “on-chain passport,” making your blockchain journey effortless while securing assets and identity.
+### 3.9.5 User Value: Universal ID, Convenient and Secure {/* {#section3-9-5} */}
+
+- **One Identity for All Chains**: No repeated registrations or authorizations—DID enables seamless access across all OneChain DApps, with unified identity and integrated data for a smoother experience.
+- **Enhanced Privacy and Security**: DID relies on no centralized servers; all data is user-controlled and stored on-chain, minimizing privacy risks from intermediary platforms.
+- **Simplified Wallet Management**: Multiple wallet addresses are linked to a single DID, reducing confusion and account management burdens.
+
+DID acts as an on-chain “passport,” making the Web3.0 journey easier while ensuring asset and identity security.
 
 ### 3.9.6 Developer Value: Precise Services and Commercialization {/* {#section3-9-6} */}
-OneChain DID benefits developers with powerful tools:
-- **Comprehensive User Profiles**: Unified identity systems allow developers to aggregate user behavior data across addresses, enabling personalized services.
-- **On-Chain Credit Building**: Long-term DID behavior data supports on-chain reputation systems for financial or social interactions.
-- **Cross-Platform Data Integration**: DIDs facilitate data integration across DeFi, NFTs, and more, unlocking commercial value.
+
+OneChain DID empowers developers with robust tools:
+
+- **Complete User Profiles**: A unified identity system aggregates user behavior data across addresses, revealing preferences and activity for personalized features and services.
+- **On-Chain Credit Building**: Long-term DID-based behavior data creates user reputation systems, providing a trusted foundation for financial or social interactions.
+- **Cross-Platform Data Integration**: DID enables data connectivity across DeFi, NFTs, and more, unlocking greater commercial potential.
 
 ### 3.9.7 DID Alliance and Win-Win Ecosystem {/* {#section3-9-7} */}
-OneChain DID’s vision extends beyond a single project, aiming to establish a Web3.0 identity standard. OneChain is launching a DID Alliance, inviting blockchain projects and developers to build a unified, open, interoperable on-chain identity ecosystem.
 
-- **Developer Benefits**: Quick integration with a unified identity system reduces development costs.
-- **Ecosystem Growth**: More applications increase user value, attracting more projects, creating a virtuous cycle.
+OneChain DID’s vision extends beyond a single project, aiming to establish a Web3.0 identity standard. To this end, OneChain is launching a DID Alliance, inviting blockchain projects and developer teams to co-build a unified, open, and interoperable on-chain identity ecosystem.
+
+- **Developer Benefits**: Rapid integration of a unified identity system reduces development costs.
+- **Ecosystem Prosperity**: More applications increase user value, attracting more projects and creating a virtuous cycle.
 
 This is not just technical collaboration but a win-win practice for decentralized ecosystems.
 
 ### 3.9.8 Real-World Applications: DID in DeFi and NFTs {/* {#section3-9-8} */}
-- **📈 DeFi**:
-  - Users can participate in lending, trading, and yield farming using DIDs without repeated authorizations or wallet connections. Unified identities enable on-chain credit, unlocking premium financial services.
-- **🎨 NFTs**:
-  - Artists can bind DIDs to their works, enhancing authenticity and authority. Collectors’ DIDs record transaction and collection histories, building unique on-chain reputation assets, boosting trust and transparency in the NFT market.
 
-DID empowers true ownership of on-chain identity. OneChain DID eliminates fragmentation, disjointed experiences, and trust issues, marking a significant leap in Web3.0 user experience.
+- **📈 In DeFi**: Users leverage DID to participate in lending, trading, and yield farming without repeated authorizations or wallet connections. Unified identities also build on-chain credit, unlocking premium financial services.
+- **🎨 In NFTs**: Artists bind DIDs to their works, enhancing authenticity and authority. Collectors’ DIDs record transaction and collection histories, building unique on-chain reputation assets, significantly boosting NFT market trust and transparency.
 
-## 3.10 Zero GAS: Lowering Barriers, Eliminating Web3 Obstacles {/* {#section3-10} */}
+DID empowers true ownership of on-chain identities. OneChain DID eliminates identity fragmentation, disjointed experiences, and trust gaps, marking a major leap in Web3.0 user experience.
 
-Zero GAS is not just a technical optimization but part of OneChain’s vision: to build a blockchain system prioritizing **high performance + high accessibility**, where user experience is a core value, not a sacrifice.
+## 3.10 Zero GAS: Lowering Barriers, Eliminating Web3 Usage Obstacles {/* {#section3-10} */}
 
-**OneChain Zero GAS Mechanism: Making Web3.0 Barrier-Free**
+Zero GAS is more than a technical optimization—it’s integral to OneChain’s ecosystem vision: building a blockchain system prioritizing **high performance and high accessibility**, where user experience is a core value, not a compromise.
 
-In the decentralized Web3.0 world, **GAS fees** remain a persistent hurdle. They are the “hidden ticket” to on-chain operations, seemingly reasonable but a real barrier to ordinary users.
+**OneChain Zero GAS Mechanism: Making Web3.0 Accessible**
 
-At **OneChain**, we believe Web3.0 should be accessible to all. Our **Zero GAS Mechanism** ensures users can experience blockchain applications without obstacles, making GAS fees invisible.
+In the decentralized Web3.0 world, **GAS fees** are a persistent hurdle. They act as an “invisible ticket” for on-chain operations, seemingly reasonable but a real barrier to mainstream users.
+
+At **OneChain**, we believe Web3.0 should have no barriers. Our **Zero GAS mechanism** ensures every user can experience blockchain applications without obstacles, making GAS fees disappear from the user experience.
 
 ### 3.10.1 Core Concept: GAS is a Technical Barrier, Not a User Barrier {/* {#section3-10-1} */}
-GAS fees incentivize network operations and prevent spam, but for non-technical users, they are confusing and complex:
-- Users don’t understand why they need “tokens” to operate or want to learn.
-- They’re unsure if their wallet has enough GAS for transactions.
-- Prepaying GAS feels like “topping up a phone plan” with no guarantee of usage.
+
+GAS fees exist to prevent spam transactions and incentivize network operations. However, for non-technical users, the GAS model is unfamiliar and complex:
+
+- Users don’t understand why they need “tokens” to operate and don’t want to learn.
+- They struggle to track GAS balances or ensure sufficient funds for transactions.
+- Recharging feels like “prepaying a phone bill” with uncertainty about usage.
 - On-chain services feel more complex than Web2.0.
-- Frequent top-ups, calculations, lags, and failures degrade the experience.
+- Frequent recharges, conversions, lags, and failures create a poor experience.
 
-Each interaction feels like “fighting a boss,” deterring Web2.0 users. This limits Web3.0’s usage frequency and real-world adoption.
+Each interaction feels like a hurdle, discouraging Web2.0 users and limiting Web3.0’s adoption and real-world applicability. We believe **great technology shouldn’t require users to understand it**.
 
-We believe: **Great technology shouldn’t require users to understand technology.**
+### 3.10.2 Design Highlights: GAS Delegate SDK for Seamless On-Chain Operations {/* {#section3-10-2} */}
 
-### 3.10.2 Design Highlights: GAS Delegation SDK, Seamless On-Chain Operations {/* {#section3-10-2} */}
-OneChain introduces a **Delegated Payment Mechanism** via the **GAS Delegation SDK**, enabling GAS-free operations:
-- Applications integrating the SDK allow users to perform on-chain operations without holding tokens.
+OneChain introduces a **Delegated Payment mechanism** via the **GAS Delegate SDK**, enabling GAS-free user operations:
+
+- Applications integrating the SDK allow users to perform on-chain actions without holding tokens.
 - GAS fees are covered by the application system, freeing users from complex on-chain processes.
 
 **Applicable High-Frequency Scenarios**:
-- 🪙 **Payments/Transfers**: No “insufficient 0.002 GAS” prompts; one-click completion.
+- 🪙 **Payments/Transfers**: No “insufficient 0.002 GAS” prompts—just one-click completion.
 - 🌍 **Cross-Border Settlements**: High-frequency trades without exploding GAS costs.
 - 🖼 **NFT Trading**: Smooth purchases like on e-commerce platforms.
-- 💼 **Enterprise Applications**: Large-scale user access unrestricted by GAS.
+- 💼 **Enterprise Applications**: Scalable user access without GAS restrictions.
 - 🎮 **GameFi Interactions**: Zero GAS for seamless gaming experiences.
-- 🧩 **Daily DApp Usage**: From wallets to payments, fully seamless.
+- 🧩 **Daily DApp Usage**: Wallet-to-payment, fully seamless.
 
-### 3.10.3 Case Studies: How OneChain Makes Blockchain “Invisible” {/* {#section3-10-3} */}
+### 3.10.3 Scenario Examples: How OneChain Makes Blockchain “Invisible” {/* {#section3-10-3} */}
 
-#### Case 1: 🎮 GameFi Experience
-- **Traditional GameFi (Ethereum/Polygon)**:
+#### Case Study 1: 🎮 GameFi Experience
+- **Traditional GameFi (Ethereum/Polygon, etc.)**:
   1. Download MetaMask wallet.
   2. Convert assets to ETH.
   3. Fund MetaMask with ETH.
   4. Open game, connect wallet.
   5. Start playing.
-  6. Out of ETH? 🙃 Repeat steps 1–5…
+  6. Run out of ETH? 😣 Repeat steps 1–5.
 - **OneChain GameFi**:
   1. Open game.
   2. Connect OneChain wallet.
   3. Start playing!
 
-😄 **User Experience**: Seamless on-chain operations without GAS interruptions, delivering a fluid experience!  
-✨ Blockchain should not be a foreground player; like the internet, it should silently support user experiences.
+😄 **User Experience**: Seamless on-chain operations with no GAS interruptions—a fluid, uninterrupted experience!  
+✨ **Blockchain’s Role**: Like the internet, it should silently support user experiences, not take center stage.
 
-#### Case 2: 🧩 Daily DApp Usage
+#### Case Study 2: 🧩 Daily DApp Usage
 - **Traditional Web3.0 DApp Pain Points**:
-  - Complex registration with mnemonic phrases.
-  - Frequent “confirm payment” or “insufficient GAS” prompts.
-  - Disconnected wallet-application experiences.
+  - Tedious registration requiring mnemonic phrases.
+  - Frequent “confirm payment” or “insufficient GAS” prompts during operations.
+  - Disconnected wallet and application experiences disrupt flow.
 - **OneChain Solutions**:
-  - ✅ **Social Login + DID Binding**: One-click registration with on-chain identity.
-  - ✅ **Custodial Wallet or Keyless Experience**: No need to memorize mnemonic phrases.
-  - ✅ **GAS-Free On-Chain Transactions**: Purchases, votes, and orders without barriers.
-  - ✅ **Advanced Features Simplified**: Data uploads, authorizations, and NFT issuance are seamless.
+  - ✅ **Social Login + DID Binding**: One-click registration with instant on-chain identity.
+  - ✅ **Hosted Wallets or Keyless Experience**: No need to memorize complex mnemonics.
+  - ✅ **GAS-Free On-Chain Transactions**: Purchases, voting, and order creation are barrier-free.
+  - ✅ **Advanced Features with One Click**: Data uploads, authorizations, and NFT issuance are seamless.
 
 ### 3.10.4 Value: User-Centric Blockchain is the Future {/* {#section3-10-4} */}
-Eliminating GAS barriers is not just an experience optimization but key to Web3.0 adoption:
-- **Lower Entry Barriers**: Enables newcomers and traditional businesses to adopt Web3.0 easily.
-- **Increased Activity**: Enhances ecosystem engagement and user growth.
-- **Optimized Experience**: Delivers smooth experiences for wallets, DApps, and payments.
-- **Real-World Relevance**: Boosts Web3.0’s applicability in practical scenarios.
 
-In Web2.0, we don’t worry about “server maintenance fees”; in Web3.0, GAS shouldn’t limit imagination.
+Eliminating GAS barriers is more than an experience optimization—it’s key to Web3.0’s widespread adoption:
+
+- **Lower Entry Barriers**: New users and traditional businesses can easily join Web3.0.
+- **Increased Activity**: Enhanced ecosystem stickiness accelerates user growth.
+- **Optimized Experience**: Smooth experiences for wallets, DApps, and payment scenarios.
+- **Real-World Relevance**: Strengthens Web3.0’s applicability in practical scenarios.
+
+In Web2.0, we don’t worry about “server maintenance fees”; in Web3.0, GAS shouldn’t limit imagination either.
 
 ## 3.11 Oracle {/* {#section3-11} */}
+
 TODO
 
-# 4. Node Strategy {/* {#section4} */}
-OneChain is committed to building an open, win-win blockchain ecosystem, uniting global partners through a node co-creation program to promote blockchain technology adoption and application.
+---
 
-Enterprises can leverage OneChain’s technology for resource integration, data sharing, and efficient collaboration via a simple, user-friendly platform.
+# 4. Application Services and Solutions {/* {#section4} */}
 
-- **Open SDKs and Tools**: OneChain provides developer-friendly tools for enterprises to rapidly build customized blockchain applications.
-- **Decentralized Trust Network**: OneChain’s decentralized architecture enables secure data and resource sharing, enhancing cross-industry collaboration efficiency.
-- **Node Staking Mechanism**: Aligns investor and platform interests, fostering ecosystem growth.
+## 4.1 Wallet Services {/* {#section4-1} */}
 
-## 4.1.1 Organizational Nodes - Ecosystem Network {/* {#section4-1-1} */}
-- **Definition**: Organizational nodes target agent partners, supporting ecosystem operations and facilitating connections between users and nodes.
-- **Entry Conditions**: Requires staking a certain amount of USDH.
-- **Target Audience**: Service providers and institutions with strong resource integration capabilities.
-- **Entry Requirements**: Ecosystem diversity, including various applications, services, and content, and their synergies.
-- **Evaluation Criteria**:
-  - Total users introduced (unique phone/email): 10,000 new users monthly.
-  - Total OCT/USDH introduced: 5 million USDH monthly.
-  - Developers introduced: 1 new on-chain application monthly.
-  - Community contribution: User contributions like suggestions, issue reporting, and governance participation.
-- **Node Incentives**:
-  - **GAS Fee Revenue**: Nodes share GAS fees from transaction validation and consensus proportionally each cycle.
-  - **Periodic Rewards**: Nodes receive additional ecosystem rewards (OCT and USDH) based on staking proportion and contribution, incentivizing active ecosystem participation.
+#### One Wallet is OneChain’s official wallet, designed for secure, convenient digital asset management with integrated innovative features.
+- **OTC Functionality**: Built-in over-the-counter trading allows users to easily purchase USDH, supporting multiple fiat payment methods to lower the barrier to acquiring digital assets.
+- **Asset Transactions**: Supports storage, transfers, and staking, compatible with assets from other mainstream blockchains.
+- **Convenient Login**: Users can log in quickly using Web2 accounts (e.g., Google, Apple), eliminating complex mnemonic phrase management.
+- **Decentralized Identity Proof (DID)**: Elevates users from single-address to multi-address identity management.
+- **ONS (One Name Service)**: Allows users to register identifiers like hero.one, @Elon, or 88888, linked to accounts and addresses. These identifiers are stored as NFTs in user wallets, with configurable parameters (e.g., linked wallet addresses) and personalization options (e.g., avatars, IPFS websites).
+- **Multi-Signature Transactions**: Supports multi-signature transactions for scenarios like corporate fund management or family-shared accounts, enhancing asset security through joint authorization.
 
-## 4.1.2 Application Nodes - Scenario Innovation {/* {#section4-1-2} */}
-- **Definition**: Application nodes target project teams, integrating blockchain with application scenarios to drive ecosystem innovation.
-- **Entry Conditions**: Requires staking a certain amount of OCT.
-- **Target Audience**: Influential project teams in Fintech, cross-border payments, digital asset management, entertainment, real estate, etc.
-- **Entry Requirements**: Evaluates platform’s technical innovation (e.g., R&D, patents) and infrastructure quality (e.g., network performance, storage).
-- **Evaluation Criteria**:
-  - Total users introduced (unique phone/email): 10,000 new users monthly.
-  - Total OCT/USDH introduced: 1 million USDH monthly.
-  - Application introductions: Apps with over 10,000 downloads and positive user ratings.
-  - Application usage frequency: Over 1,000 daily active users.
-  - Community contribution: User contributions like suggestions, issue reporting, and educational participation.
-- **Node Incentives**:
-  - **Periodic Rewards**: Nodes receive ecosystem rewards (OCT and USDH) based on application contributions, incentivizing developers.
-  - **Ecosystem Contribution Rewards**: Additional rewards for technical support, app development, or business promotion.
+## 4.2 Stablecoin Services {/* {#section4-2} */}
 
-## 4.1.3 Asset Nodes - Institutional Focus {/* {#section4-1-3} */}
-- **Definition**: Asset nodes target asset holders, digitizing real-world assets on-chain.
-- **Entry Conditions**: Requires staking real-world assets.
-- **Target Audience**: Institutions with assets like real estate, precious metals, government bonds, etc.
-- **Entry Requirements**: Ecosystem diversity and compliance, suitable for assets like scarce resources or highly liquid bonds.
-- **Evaluation Criteria**:
-  - Purchasing users (unique phone/email): 10,000 users.
-  - Total OCT/USDH introduced: 1 million USDH.
-  - Transaction frequency: Over 1,000 daily transactions.
-- **Node Incentives**: Nodes receive ecosystem rewards (OCT and USDH) based on asset contributions, incentivizing active participation.
-
-## 4.1.4 Node Incentive Mechanism - Foundation {/* {#section4-1-4} */}
-- OneChain will launch an official activity incentive program, with rewards distributed automatically via smart contracts. All node contribution data and reward allocations are transparently recorded on-chain, allowing real-time queries for fairness and transparency.
-- Incentive adjustments (e.g., weight coefficients, reward rules) are managed via on-chain governance. Nodes and token holders can propose and vote on reward weightings and proportions, enhancing community participation and fairness.
-- **Base Rewards**:
-  - Distributed proportionally based on each node’s total OCT stake per cycle:
-  - Formula: ![noderewards](./image/noderewards.png "noderewards")
-  - R(i): Node i’s base reward
-  - S(i): Node i’s total staked OCT
-  - N: Total number of nodes
-  - T_OCT: Total OCT reward pool for the cycle
-- At cycle’s end, base rewards are distributed via smart contracts, ensuring fair returns based on stake.
-
-## 4.1.5 Node Incentive Mechanism - ONI (One Node Incentive) {/* {#section4-1-5} */}
-- To encourage active ecosystem contributions, OneChain supplements a USDH reward pool, distributing rewards based on nodes’ actual contribution score C[i].
-- **Contribution Definition**:
-  - Organizational nodes: Based on new user numbers and user activity quality.
-  - Application nodes: Based on transaction volume and activity from applications.
-  - Asset nodes: Based on transaction volume and activity from assets.
-- **Contribution Reward Formula**:
-  - Formula: ![nodeoni](./image/nodeoni.png "nodeoni")
-  - RE(i): Node i’s extra reward
-  - C(i): Node i’s comprehensive contribution score
-  - T_USDH: Current cycle’s USDH reward pool
-- **Comprehensive Contribution Score Formula**:
-  - C(i) = α⋅G(i) + β⋅A(i)
-  - G(i): Transaction volume or new users from applications/assets
-  - A(i): User or transaction activity
-  - α, β: Behavioral weight coefficients (determined by on-chain governance)
-  - Coefficients α and β are dynamically adjusted via governance for fair and flexible reward allocation.
-
-## 4.1.6 Node Ecosystem Co-Creation Program {/* {#section4-1-6} */}
-OneChain nodes are not just technical foundations but core participants in ecosystem co-creation.
-- **Ecosystem Incubation**: Nodes can propose or lead application development projects (e.g., DeFi, GameFi, cross-border payments). The OneChain Foundation provides funding, technical, and market support for outstanding proposals.
-- **Joint Promotion**: Nodes and the OneChain Foundation collaborate on global promotion of ecosystem projects, leveraging nodes’ local resources in OneChain’s strong sectors like finance, entertainment, and commercial real estate.
-- **Data Collaboration**: Nodes leverage OneChain’s DID system for on-chain data analysis, enabling precise user-profile-based services for efficient commercial experiences.
-
-## 4.1.7 Node Exit Mechanism {/* {#section4-1-7} */}
-To ensure network stability and security, OneChain enforces a strict node exit mechanism.
-- **Stake Unlocking**: Exiting nodes unlock staked funds 7 cycles (approx. 7 days) after the exit proposal takes effect, ensuring no disruption to network operations.
-- **Non-Compliant Node Handling**: Nodes with insufficient uptime, malicious behavior, or failure to fulfill duties face:
-  - Reduced reward allocations
-  - Partial stake forfeiture as penalties
-  - Permanent disqualification for repeated violations
-
-# 5. Application Services and Solutions {/* {#section5} */}
-
-## 5.1 Wallet Services {/* {#section5-1} */}
-**One Wallet** is OneChain’s official wallet, designed for secure, convenient digital asset management with innovative features.
-- **OTC Functionality**: Integrated over-the-counter trading allows easy USDH purchases with multiple fiat payment methods, lowering digital asset acquisition barriers.
-- **Asset Transactions**: Supports asset storage, transfers, and staking, compatible with mainstream blockchain assets.
-- **Convenient Login**: Users log in via Web2 accounts (e.g., Google, Apple) without managing mnemonic phrases.
-- **Decentralized Identity Proof (DID)**: Elevates users from single addresses to multi-address identity management.
-- **ONS (One Name Service)**: Users can register identifiers like hero.one, @Elon, or 88888, linked to accounts and addresses. Stored as NFTs in wallets, users can configure parameters (e.g., linked wallet addresses) and personalize settings (e.g., avatars, IPFS websites).
-- **Multi-Signature Transactions**: Supports multi-signature transactions for enterprise fund management, family-shared accounts, etc., enhancing asset security through joint authorization.
-
-## 5.2 Stablecoin Services {/* {#section5-2} */}
-- **Remittance**: Supports multi-currency cross-border payments and international transfers.
-- **Payments**: Supports fiat and crypto payments online and offline.
-- **Transfers**: Address-based, DID-based, username-based, or targetless transfers (red packets).
+- **Remittance**: Supports cross-border payments and international transfers in multiple fiat currencies.
+- **Payments**: Supports online and offline payments in fiat and cryptocurrencies.
+- **Transfers**: Supports address-based, DID-based, username-based, and targetless transfers (e.g., red packets).
 - **Deposits**: Supports multi-chain crypto deposits and multi-channel fiat deposits.
-- **Savings**: Offers 8% annualized yield* akin to Yu’e Bao.
-- **Transparency**: Blockchain ensures real-time tracking and transparent transaction records, guaranteeing safety and traceability.
+- **Savings**: Offers an 8% annualized yield* similar to Yu’e Bao.
+- **Transparency**: Blockchain ensures real-time tracking and transparent recording of fund flows, guaranteeing transaction security and traceability.
 
-## 5.3 RWA Structured Asset Services {/* {#section5-3} */}
-- Web3 lacks quality underlying assets, with only BTC, ETH, and a few others available.
-- Web2 assets lack financial innovation and liquidity.
-- OneChain collaborates with ecosystem partners to build a platform for asset digitization and investment, offering diverse asset management solutions:
+## 4.3 RWA Structured Asset Services {/* {#section4-3} */}
+
+Web3 lacks quality underlying assets, currently limited to BTC, ETH, and a few others. Web2 assets lack financial innovation and liquidity. OneChain, with ecosystem partners, builds a platform for asset digitization and investment, offering diverse asset management solutions.
 
 ![RWA](./image/rwa-.png "RWA")
 
-### 5.3.1 RWA {/* {#section5-3-1} */}
-#### Web3.0: Has Financial Infrastructure but Lacks Quality Underlying Assets
-- Traditional crypto assets (e.g., BTC, ETH) struggle to meet advanced investment needs.
-- They have “prices” but lack ties to real-world value systems, missing stable return models and asset backing.
+### 4.3.1 RWA {/* {#section4-3-1} */}
 
-#### Web2.0: Has Vast Real-World Assets but Lacks Liquidity and Innovation
-- Quality assets (e.g., real estate, supply chain bonds, commercial papers) offer stable value and cash flows.
-- Constrained by intermediaries, regional limits, and trust costs, they are hard to issue, circulate, or invest in.
+#### Web3.0: Robust Financial Infrastructure, Lacking Quality Underlying Assets
+- Traditional crypto assets (e.g., BTC, ETH) struggle to meet advanced investment needs.
+- They have “prices” but lack ties to real-world value systems, missing stable yield models or asset backing.
+
+#### Web2.0: Abundant Real-World Assets, Lacking Liquidity and Innovation
+- Quality assets (e.g., real estate, supply chain receivables, commercial papers) offer stable value and cash flows.
+- However, intermediaries, regional restrictions, and trust costs hinder issuance, circulation, and investment.
 
 #### Results:
-- Low enterprise financing efficiency.
+- Low corporate financing efficiency.
 - Ordinary users cannot participate in quality asset appreciation.
-- On-chain ecosystems lack real asset injections.
+- On-chain ecosystems lack real asset integration.
 
-####OneChain’s Focus on Three Pain Points:
+#### OneChain’s Focus: Three Key Pain Points
 - **Web3.0**: Singular asset structures lacking real-world backing.
-- **Web2.0**: High securitization costs, poor liquidity, opaque processes.
+- **Web2.0**: High securitization costs, poor liquidity, and opaque processes.
 - **Ordinary Users**: High barriers prevent participation in quality asset allocation.
 
-####OneChain’s Goal:
-- Bridge the gap between value and price, creating a structured asset investment platform that enables real value to flow on-chain with price discovery capabilities.
+#### OneChain’s Goal:
+Bridge the gap between value and price, creating a structured asset investment platform that enables real value to flow on-chain with price discovery capabilities.
 
-### 5.3.2 OneRWA: Connecting Real-World Assets with Web3.0 Issuance Platform {/* {#section5-3-2} */}
-OneChain builds **OneRWA**, a platform supporting asset on-chain issuance, smart dividends, structured investments, and global circulation, blending traditional financial logic with blockchain infrastructure.
+### 4.3.2 OneRWA: Connecting Real-World Assets with Web3.0 {/* {#section4-3-2} */}
 
-**Platform Features**:
+#### OneChain builds OneRWA, a platform supporting on-chain asset issuance, smart dividends, structured investments, and global circulation, blending traditional financial logic with blockchain infrastructure.
+#### Platform Features
 - **Bridging Two Worlds**: Real-world + virtual assets.
-- **Three-Layer Value Flow**: Data on-chain, profits on-chain, assets on-chain.
-- **Regulatory + Decentralized Fusion**: Compliant audits + smart contracts + decentralized trading.
-- **Multi-Party Participation**: Issuers, banks, funds, insurers, and custodians can join.
+- **Three-Tier Value Flow**: Data on-chain, yields on-chain, assets on-chain.
+- **Regulatory and Decentralized Fusion**: Compliance audits + smart contracts + decentralized trading.
+- **Multi-Party Participation**: Accessible to issuers, banks, funds, insurers, and custodians.
 
-### 5.3.3 Core Capabilities {/* {#section5-3-3} */}
-- **Diverse Asset On-Chain Issuance**:
-  - Supports issuance of various real-world assets, including:
-    - **Financial Assets**: Bills, bonds, leases, revenue rights.
+### 4.3.3 Core Capabilities {/* {#section4-3-3} */}
+
+- **Diverse Asset Issuance**:
+  - Supports on-chain issuance of various real-world assets, including:
+    - **Financial Assets**: Bonds, receivables, leases, yield rights.
     - **Commercial Real Estate**: Office buildings, industrial parks, long-term rentals.
-    - **Supply Chain Assets**: Receivables, order financing, prepayment agreements.
-  - Standardized digitization processes make assets composable, circulatable, and traceable, enhancing financing and investment efficiency.
-- **Profit Distribution Mechanism**:
-  - Smart contracts automate profit distribution without intermediaries.
-  - Users invest via wallets, with platforms allocating profits proportionally.
-  - Fully transparent on-chain, tamper-proof, with visible dividends.
+    - **Supply Chain Assets**: Accounts receivable, order financing, prepayment agreements.
+  - Standardized digital processes make traditional assets composable, circulatable, and traceable, enhancing financing and investment efficiency.
+- **Yield Distribution Mechanism**:
+  - Smart contracts enable automated yield distribution without intermediaries.
+  - Users invest via wallets, with platforms distributing profits proportionally.
+  - Fully transparent and tamper-proof, achieving “on-chain yields, visible dividends.”
 - **Structured Investment Tools**:
   - OneChain introduces a structured asset design framework with configurable portfolio strategies:
     - Multi-asset bundling for risk diversification.
-    - Categorized by risk preference, maturity, and return type.
-    - Supports fixed, floating, or hybrid product structures.
-  - Users can customize portfolios, lowering investment barriers and enhancing visibility and flexibility.
-- **Financial Structured Derivatives**:
-  - Via DeFi-native mechanisms (e.g., leverage, tiered returns, rate adjustments), real-world assets are structured for enhanced liquidity and composability:
-    - Users choose return models based on risk preferences.
-    - Asset issuers efficiently manage financing and assets, enabling synergy between traditional assets and on-chain capital.
+    - Categorized by risk preference, maturity, and yield type.
+    - Supports fixed, floating, and hybrid product structures.
+  - Users can customize portfolios, lowering investment barriers and enhancing visibility and flexibility in asset management.
+- **Structured Financial Derivatives**:
+  - DeFi-native mechanisms (e.g., leverage, tiered yields, rate adjustments) structure real-world assets, injecting greater liquidity and composability:
+    - Users select yield models based on risk preferences.
+    - Asset issuers efficiently complete financing and management, synergizing traditional assets with on-chain capital.
 
-### 5.3.4 Real-World Applications: Solving Pain Points for Enterprises and Users {/* {#section5-3-4} */}
+### 4.3.4 Real-World Applications: Solving Practical Pain Points for Businesses and Users {/* {#section4-3-4} */}
+
 - **Commercial Real Estate Financing On-Chain**:
   - **Traditional Pain Points**:
-    - Real estate transactions involve numerous intermediaries (ownership transfers, custody, payments).
-    - Lengthy processes, high fees, and lack of transparent asset disclosures.
-    - Limits financing efficiency and inclusivity.
+    - Real estate transactions involve numerous intermediaries (e.g., title transfers, custody, payments).
+    - Lengthy processes, high costs, and lack of transparent asset disclosures.
+    - Limited financing efficiency and inclusivity.
   - **OneChain Solutions**:
-    - Reconstructs commercial real estate financing via asset digitization and structured issuance:
+    - Digitizes and structures issuance to reengineer commercial real estate financing:
     - **Enhanced Asset Liquidity**:
       - Tokenizes real estate rights into circulatable digital assets.
-      - Supports fractional trading and secondary market exits, boosting heavy asset liquidity and flexibility.
+      - Supports fractional trading and secondary market exits, improving liquidity and exit flexibility for heavy assets.
     - **Lower Investment Barriers, Broader User Reach**:
-      - Fractional Ownership model splits high-value properties into standardized investment units.
-      - Ordinary investors can participate in real estate with small investments, democratizing asset allocation.
+      - Fractional Ownership models break high-value properties into standardized investment units.
+      - Ordinary investors can participate in real estate with small amounts, democratizing asset allocation.
     - **Smart Contract-Driven Efficiency**:
-      - Rent distribution, ownership transfers, and payment settlements are automated via smart contracts.
-      - Eliminates intermediaries, reduces compliance and time costs, and ensures auditable, verifiable outcomes.
+      - Rent distribution, title transfers, and payment settlements are automated by smart contracts.
+      - Eliminates intermediaries, reducing compliance and time costs, with fully auditable and verifiable on-chain results.
     - **DeFi Integration for Secondary Value**:
       - Tokenized properties serve as collateral or liquidity components in DeFi protocols.
-      - Combines base cash flows with on-chain yield opportunities, creating composable, programmable on-chain assets.
-- **Supply Chain Financial Asset On-Chain**:
+      - Combines baseline cash flows with on-chain yield enhancements, creating composable, programmable on-chain asset models.
+- **Supply Chain Financial Assets On-Chain**:
   - **Traditional Pain Points**:
-    - SMEs face high funding costs, slow approvals, and opaque repayment cycles in supply chain financing.
-    - Financial institutions struggle with comprehensive risk assessments of underlying assets.
+    - SMEs face high financing costs, low approval efficiency, and opaque repayment cycles in supply chain financing.
+    - Financial institutions struggle to conduct comprehensive risk assessments of underlying assets.
   - **OneChain Solutions**:
-    - Enhances supply chain asset financing efficiency and trust with on-chain verification and automated settlements:
-    - **On-Chain Asset Verification for Transparency**:
+    - Uses on-chain attestation and automated settlement to enhance supply chain asset financing efficiency and trust:
+    - **Core Asset Attestation for Transparency**:
       - Records receivables, contract terms, and performance data on-chain.
       - Supports third-party verification and audits, boosting trust in asset authenticity and risk for institutions and investors.
-    - **Automated Cash Flow Management, Reduced Risks**:
-      - Cash flows during repayment cycles are distributed automatically via smart contracts.
-      - Eliminates manual errors and delays, improving capital efficiency.
-    - **Ecosystem Resource Integration, Expanded Financing Channels**:
-      - Integrates on-chain liquidity, DeFi protocols, and partner institutions.
+    - **Automated Cash Flow Management to Reduce Risks**:
+      - Smart contracts automatically distribute cash flows during repayment cycles.
+      - Eliminates manual intervention, reducing errors and delays, and improving capital efficiency.
+    - **Ecosystem Resource Integration for Broader Financing**:
+      - Combines on-chain liquidity, DeFi protocols, and partner institutions.
       - Provides one-stop financial access for asset issuers, linking supply chain assets with Web3 capital efficiently.
 
-### 5.3.5 RWA Structured Innovation: Enabling “Composition,” “Pricing,” and “Tradability” for Real Assets {/* {#section5-3-5} */}
-OneRWA is not just about on-chain assets but about redefining financial product design logic.
+### 4.3.5 RWA Structural Innovations: Enabling “Composition,” “Pricing,” and “Tradability” for Real Assets {/* {#section4-3-5} */}
 
-- **Innovation 1: Principal-Profit Separation Mechanism (RWAPT / RWAST)**:
-  - Adapts traditional finance’s principal-profit separation:
-    - **RWAPT (RWA Principal Token)**: Represents principal, starting at $95, appreciating daily, redeemable at $100 after a year.
-    - **RWAST (RWA Strip Token)**: Represents profit rights, starting at $20, decreasing daily to near $0 after 365 days, but earning continuous dividends or interest.
+#### OneRWA goes beyond on-chain assets, redefining financial product design logic.
+
+- **Innovation 1: Principal-Yield Separation (RWAPT / RWAST)**:
+  - Replicates and optimizes traditional finance’s principal-yield separation:
+    - **RWAPT (RWA Principal Token)**: Represents principal, starting at $95, appreciating daily, redeemable at $100 after one year.
+    - **RWAST (RWA Strip Token)**: Represents yield rights, starting at $20, decreasing daily to near $0 after 365 days, but continuously earning dividends or interest.
     - **Value Logic**:
-      - RWAPT suits conservative investors, securing principal returns.
-      - RWAST suits high-yield seekers, bearing volatility for higher dividends.
+      - RWAPT suits conservative investors, locking in principal returns.
+      - RWAST suits high-yield seekers, accepting volatility for higher dividends.
 - **Innovation 2: On-Chain Leverage Trading and Risk Hedging Tools**:
   - Combined with OneChain’s perpetual contract module, RWA products support:
-    - Up to 20x decentralized leverage: Amplifies returns or hedges RWAST market volatility.
-    - Yield enhancement/risk management strategy combinations: Cross-financial tools blending RWA and derivatives for tailored strategies.
-  - Transforms RWAs from “on-chain bonds” to an “on-chain asset portfolio trading market.”
+    - Up to 20x decentralized leverage to amplify returns or hedge RWAST market volatility risks.
+    - Yield enhancement/risk management strategy combinations using RWA + derivatives for differentiated strategy options.
+  - Transforms RWAs from “on-chain bonds” to a “market for on-chain asset portfolio trading.”
 - **Innovation 3: Asset Aggregation + Risk-Tiered Issuance**:
-  - Builds an RWA aggregated issuance model for diverse investment preferences and risk tolerances:
-    | Asset Portfolio | Initial Price | Expected Return        |
-    |-----------------|---------------|-----------------------|
-    | RWAT1           | $0.90         | 10% annualized (senior)|
-    | RWAT2           | $0.80         | 20% annualized (mezzanine)|
-    | RWAT3           | $0.70         | 30% annualized (junior)|
-  - **Tiered Returns**:
-    - First-tier investors: 10% excess incentive.
-    - Second-tier investors: 15% incentive.
-    - Third-tier investors: 20% incentive + risk commitment.
-  - Mimics real-world “CDO/CLO” structures, allowing users to choose risk-return preferences.
-- **Innovation 4: On-Chain Insurance and Decentralized Fund Pools**:
-  - Introduces decentralized insurance to address trust gaps in on-chain real assets:
-    - **RWA Insurance Fund Pool**: Users stake funds to provide price stability/credit compensation for tokenized assets.
-    - **Insurer-Investor Win-Win Model**: Insurers earn premiums, investors gain risk protection.
+  - Builds an RWA aggregated issuance model to cater to diverse investment preferences and risk tolerances:
+    | Asset Pool | Initial Price | Expected Yield |
+    |------------|---------------|----------------|
+    | RWAT1      | $0.90         | 10% annualized (senior) |
+    | RWAT2      | $0.80         | 20% annualized (mezzanine) |
+    | RWAT3      | $0.70         | 30% annualized (junior) |
+  - **Tiered Yields**:
+    - First-tier investors: 10% excess incentives.
+    - Second-tier investors: 15% incentives.
+    - Third-tier investors: 20% incentives + risk commitment mechanisms.
+  - Mirrors real-world “CDO/CLO” structures, allowing users to select risk-yield preferences.
+- **Innovation 4: On-Chain Insurance and Decentralized Funding Pools**:
+  - Introduces decentralized insurance to address “credit backing” gaps in on-chain real assets:
+    - **RWA Insurance Pool**: Users stake funds to provide price stability/credit compensation for tokenized assets.
+    - **Insurer-Investor Win-Win Model**: Insurers earn premium yields; investors gain risk hedging protection.
     - **Transparent On-Chain Assurance**: Policies, claims, and fund flows are recorded on-chain with automated triggers and community governance.
 
-**Making Real Value “Visible, Investable, and Profitable” on-Chain**  
-RWA is the key to bridging blockchain finance with the real economy. Truly transformative RWAs require structured design, liquidity, pricing mechanisms, and return management.
+**Making Real Value “Visible, Investable, and Divisible” On-Chain**
+
+RWAs are the key to bridging blockchain finance with the real economy. Transformative RWAs require structured design, liquidity, pricing mechanisms, and yield management.
 
 **OneChain’s Goal**:  
-Build a structured asset platform with rich underlying assets, transparent governance, and clear, visible returns, serving next-generation Web3.0 investors and enterprise asset managers. Web3.0 should not just be about “coins” but should carry real value. OneChain standardizes, modularizes, and smartens asset securitization processes, turning every quality asset into an “investable product” and providing every user access to the on-chain financial system.
+Build a structured asset platform with rich underlying assets, transparent governance, and clear yield visibility, serving next-generation Web3.0 investors and corporate asset managers. Web3.0 shouldn’t just be about “coins” but should carry real value. OneChain standardizes, modularizes, and intelligentizes asset securitization, turning every quality asset into an “investable product” and giving every user access to the on-chain financial system.
 
-## 5.4 E-Commerce Cashback {/* {#section5-4} */}
-- Enables decentralized transaction and payment management for e-commerce platforms.
+## 4.4 E-Commerce Cashback {/* {#section4-4} */}
+
+- E-commerce platforms enable decentralized transaction and payment management.
 - Users pay no GAS fees, with contracts designating project teams to cover costs.
 - Commission points are automatically distributed via smart contracts.
 
-## 5.5 Decentralized Exchange Services {/* {#section5-5} */}
+## 4.5 Decentralized Exchange Services {/* {#section4-5} */}
+
 - **Trustless Trading**:
   - Supports decentralized order matching and transaction settlement, ensuring asset security.
 - **Liquidity Incentives**:
@@ -648,162 +576,164 @@ Build a structured asset platform with rich underlying assets, transparent gover
 - **Multi-Asset Support**:
   - Supports USDH and other OneChain ecosystem tokens, extending to mainstream cross-chain assets.
 
-## 5.6 Cross-Chain Asset Services {/* {#section5-6} */}
-Integrates the Wormhole cross-chain protocol to create an efficient, secure cross-chain asset integration platform.
+## 4.6 Cross-Chain Asset Services {/* {#section4-6} */}
+
+#### Integrates the Wormhole cross-chain protocol for an efficient, secure cross-chain asset integration platform.
 - **Cross-Chain Interoperability**:
-  - Supports asset transfers from mainstream blockchains (e.g., Ethereum, BSC, Solana) to OneChain for management and circulation.
+  - Enables asset transfers from mainstream blockchains (e.g., Ethereum, BSC, Solana) to OneChain for cross-chain management and circulation.
 - **Cross-Chain Smart Contracts**:
-  - Enables Wormhole-based smart contract interactions.
-  - Supports multi-chain DeFi apps and cross-chain NFT projects.
+  - Supports Wormhole-based smart contract interactions.
+  - Facilitates multi-chain DeFi applications and cross-chain NFT projects.
 - **Decentralized and Efficient**:
-  - Wormhole’s decentralized validation network ensures secure, trustworthy cross-chain processes.
+  - Wormhole’s decentralized validation network ensures secure and trustworthy cross-chain processes.
 - **Optimized User Experience**:
-  - Gas Drop-off functionality lowers barriers to cross-chain usage.
+  - Gas Drop-off functionality lowers barriers to using cross-chain features.
 
-## 5.7 User Identity Management and Data Interoperability Services {/* {#section5-7} */}
-Traditional blockchains struggle to integrate user data across multiple addresses, limiting personalized services.
+## 4.7 User Identity Management and Data Interoperability Services {/* {#section4-7} */}
+
+#### Traditional blockchains rely on multiple addresses, making user data integration challenging and limiting personalized services.
 - **DID Decentralized Identity System**:
-  - Generates unique 13-digit random DIDs, consolidating user addresses across applications for comprehensive user profiles.
-- **Data-Driven Commercial Services**:
-  - Leverages on-chain interaction records to provide enterprises with deep data insights for precise, personalized services and marketing.
+  - Generates a unique 13-digit random DID for users, consolidating on-chain addresses across applications for comprehensive user profiles.
+- **Data-Driven Business Services**:
+  - Leverages on-chain interaction records to provide enterprises with deep data insights, enabling precise personalized services and marketing strategies.
 - **Alliance-Driven Ecosystem Growth**:
-  - More DID-enabled apps enrich on-chain user data, fostering a thriving ecosystem and creating value for enterprises and users.
+  - More applications using DID login enrich on-chain user data, fostering a thriving ecosystem that creates value for businesses and users.
 
-## 5.8 Staking and Lending Services {/* {#section5-8} */}
-Decentralized wealth management products based on USDH/OCT, offering investment returns.
+## 4.8 Staking and Lending Services {/* {#section4-8} */}
+
+#### Decentralized wealth management products based on USDH/OCT, offering investment returns.
 - **Staking**:
-  - Users deposit USDH/OCT into staking pools for safe, stable returns.
+  - Users deposit USDH/OCT into staking pools for secure, stable returns.
 - **Flexible Cycles**:
-  - Supports short- and long-term staking cycles to meet diverse user needs.
-- **Return Optimization**:
-  - Smart contracts distribute staking rewards transparently, with real-time return visibility.
+  - Offers multiple staking periods (short-term, long-term) to meet diverse user needs.
+- **Yield Optimization**:
+  - Smart contracts distribute staking rewards transparently, with real-time yield visibility.
 
-## 5.9 Entertainment and Gaming Asset Services {/* {#section5-9} */}
-Current entertainment and gaming industries lack transparency, with users unable to truly own virtual assets and facing complex, costly transaction processes.
-- **NFT-Enabled Entertainment and Gaming**:
+## 4.9 Entertainment and Gaming Asset Services {/* {#section4-9} */}
+
+#### Current entertainment and gaming industries lack transparency, with users unable to truly own virtual assets and facing complex, costly trading processes.
+- **NFT-Powered Entertainment and Gaming**:
   - OneChain supports NFT-based digital asset issuance and circulation, enabling users to own and trade virtual items like game props and collectibles.
 - **Cross-Application Asset Interoperability**:
-  - DID technology enables asset interoperability across gaming and entertainment apps, enhancing asset value and usability.
+  - DID technology enables asset interoperability across gaming and entertainment applications, enhancing asset value and usability.
 - **Ecosystem Partnerships**:
-  - OneChain collaborates with entertainment and gaming partners to provide more application scenarios and interactive experiences.
+  - OneChain collaborates with entertainment and gaming industry partners to offer diverse application scenarios and interactive experiences.
 
-## 5.10 Simplified Gaming Asset Services {/* {#section5-10} */}
-- Many blockchain solutions require extensive game infrastructure overhauls or learning new smart contract languages.
+## 4.10 Simplified Gaming Asset Services {/* {#section4-10} */}
+
+- Many blockchain solutions require significant game infrastructure overhauls or learning new smart contract languages.
 - OneChain eliminates these barriers with intuitive tools, allowing teams to integrate Web3 elements without sacrificing performance, user experience, immersion, or development efficiency.
+
 - **Dynamic NFTs**:
-  - Offers dynamic, composable NFT features, enabling assets to evolve based on state without complex contract changes. Developers can create characters or props that change with player behavior, progress, or achievements. NFTs can own other NFTs or reference assets via dynamic fields, allowing players to equip or customize items.
+  - Offers dynamic and composable NFT features, enabling assets to evolve based on state changes without complex contract modifications. Developers can create characters or items that change with player behavior, progress, or achievements. NFTs can own other NFTs or reference assets via dynamic fields, allowing players to equip or customize items.
 - **Object-Oriented Architecture**:
-  - Stores NFTs as independent on-chain objects, fully controlled by users, unlike blockchains storing NFTs in fixed contracts. This ensures direct ownership, simplifying trading, customization, and in-game integration with richer functionality.
+  - Unlike blockchains storing NFTs in fixed smart contracts, OneChain’s NFTs are independent on-chain objects fully controlled by users. This paradigm ensures direct ownership, simplifying transactions, customization, and in-game integration with richer functionality.
 - **Web2 Integration**:
-  - Self-custodial wallets and social logins designed for gaming scenarios.
+  - Self-custodial wallets and social logins are tailored for gaming scenarios.
 
-# 6. Token Economics {/* {#section6} */}
-OneChain’s economic model is designed for stability and sustainability, leveraging the native token OCT and complementary incentives to drive public chain ecosystem prosperity.
+---
 
-## 6.1 OCT Token Overview {/* {#section6-1} */}
-**Total Supply**: 10 billion tokens  
-**Token Features**: OCT is OneChain’s native token with the following core functions:
+# 5. Token Economics {/* {#section5} */}
+
+#### OneChain’s economic model is designed for stability and sustainability, leveraging the native token OCT and supporting incentives to drive public chain ecosystem prosperity.
+
+## 5.1 OCT Token Overview {/* {#section5-1} */}
+
+#### Total Supply: 10 Billion Tokens
+#### Token Features: OCT is OneChain’s native token with the following core functions:
 - Supports on-chain transactions and payments (GAS fees).
 - Incentivizes network nodes for validation and maintenance.
-- Facilitates payments and value exchange in the ecosystem.
+- Facilitates payments and value exchange in the on-chain application ecosystem.
 - Empowers decentralized governance and voting.
 
-## 6.2 OCT Token Use Cases {/* {#section6-2} */}
+## 5.2 OCT Token Use Cases {/* {#section5-2} */}
+
 ### On-Chain Transactions and Payments:
-- The payment medium for all OneChain transactions, covering GAS fees. Combined with OCT Wallet’s delegated payment function, users can pay GAS with OCT, lowering usage barriers.
+- The primary payment medium for all OneChain transactions, covering GAS fees. Combined with OCT Wallet’s delegated payment function, users can pay GAS fees with OCT, significantly lowering usage barriers.
 
 ### Mining Rewards:
-- Validator nodes earn OCT rewards by running OneChain’s consensus protocol, encouraging long-term network security and efficiency.
+- Validator nodes earn OCT rewards by running OneChain’s consensus protocol, encouraging long-term participation in maintaining network security and efficiency.
 
 ### Ecosystem Support:
 - OneChain supports developers with OCT-funded ecosystem grants for DApp development, marketing, and user acquisition.
 
 ### On-Chain Governance:
-- OCT holders participate in governance, voting on network upgrades, ecosystem fund usage, and other critical decisions.
+- OCT holders participate in governance, voting on protocol upgrades and ecosystem fund allocation decisions.
 
-## 6.3 OCT Token Allocation {/* {#section6-3} */}
+## 5.3 OCT Token Allocation {/* {#section5-3} */}
+
 ![Tokenomics](./image/tokenomics-.png "Tokenomics")
+
 - **Ecosystem Fund (30%)**:
-  - Attracts users and developers through community events, marketing, and DApp incentives. Supports quality project integration with funding and technical assistance.
+  - Attracts users and developers to the OneChain ecosystem through community events, marketing, and DApp development incentives. Supports quality projects with funding and technical assistance.
 - **Team Rewards (10%)**:
-  - Rewards founding team and core developers, incentivizing long-term maintenance. Locked with a 5-year vesting schedule (20% annually) to align team and ecosystem interests.
+  - Rewards the founding team and core developers, incentivizing long-term maintenance and development. Lockup mechanism: Team rewards vest gradually, typically over 5 years (20% annual release), aligning team and ecosystem interests.
 - **Advisors & Partners (5%)**:
-  - Attracts strategic partners and investors for long-term development, fostering collaboration with traditional enterprises and other blockchains.
-- **Pre-Sale (8%)**:
-  - Supports initial funding and early circulation for public chain launch and ecosystem building.
+  - Engages strategic partners and investors for OneChain’s long-term growth, fostering deep collaboration with traditional businesses and other blockchain projects.
+- **Presale (8%)**:
+  - Funds initial operations and early circulation, supporting public chain launch and early ecosystem building.
 - **Nodes (27%)**:
-  - Supports various nodes for initial operations and ecosystem development.
+  - Supports various nodes for initial operations and ecosystem development post-launch.
 - **Liquidity (5%)**:
-  - Supports token liquidity.
+  - Ensures token liquidity support.
 - **DAO & Airdrop (10%)**:
-  - Supports DAO governance and community operations.
+  - Funds DAO governance and community operations.
 - **Public Sale & Exchanges (5%)**:
   - Supports public sales and exchange fees.
 
-## 6.4 OCT TGE {/* {#section6-4} */}
+## 5.4 OCT TGE {/* {#section5-4} */}
+
 ![TGE](./image/tge.png "TGE")
 
 | Allocation       | Share  | TGE Unlock | Cliff (Months) | Vesting (Months) |
 |-----------------|--------|------------|----------------|------------------|
 | Team            | 10.00% | 25.00%     | 12             | 48               |
-| Pre-Sale        | 8.00%  | 10.00%     | 0              | 24               |
+| Presale         | 8.00%  | 10.00%     | 0              | 24               |
 | Market          | 27.00% | 10.00%     | 6              | 24               |
 | Ecosystem Fund  | 30.00% | 20.00%     | 0              | 12               |
 | Advisors        | 5.00%  | 100.00%    | 0              | 0                |
-| DAO & Airdrop   | 10.00% | 10.00%     | 6              | 24               |
-| Options & Partners | 5.00% | 25.00%     | 12             | 48               |
+| DAO and Airdrop | 10.00% | 10.00%     | 6              | 24               |
+| Options & Partners | 5.00% | 25.00%  | 12             | 48               |
 | Exchanges       | 5.00%  | 100.00%    | 12             | 0                |
 
-![TGETable](./image/tgetable.png "TGETable")
 
-## 6.5 On-Chain Governance {/* {#section6-5} */}
-OneChain’s governance system is based on referenda, where anyone can submit proposals, but passage requires community voting. Voting power is held by OCT holders, weighted by locked OCT amounts and lock duration (belief multiplier). Nodes (validators) do not directly vote but can participate indirectly by holding OCT.
+## 5.5 On-Chain Governance {/* {#section5-5} */}
 
-- **Proposal Submission**:
-  - Anyone can submit proposals with a deposit.
-  - Proposals must be endorsed to enter the referendum queue.
-- **Referendum Process**:
-  - Proposals enter the queue, ranked by endorsement level.
-  - The highest-ranked proposal becomes a referendum for voting.
-- **Voting Rules**:
-  - Users vote by locking OCT, with higher and longer locks increasing weight.
-  - Results require a passing threshold (e.g., supermajority).
+#### OneChain’s governance system is referendum-based, allowing anyone to submit proposals, which are finalized through community voting. Voting rights are held by OCT holders, with weight tied to the amount and duration of locked OCT (belief multiplier). Nodes (validators) do not directly vote but can participate indirectly by holding OCT.
 
-# 7. Roadmap {/* {#section7} */}
+### Proposal Submission:
+- Anyone can submit proposals but must pay a deposit.
+- Proposals must be endorsed to enter the referendum queue.
 
-## 2025 Phase 1: Mainnet Launch and Ecosystem Activation {/* {#section7-1} */}
-- Launch mainnet with OCT token, DID system, and wallet integration.
+### Referendum Process:
+- Proposals in the queue are ranked by endorsement level.
+- The highest-ranked proposal becomes a referendum, entering the voting period.
+
+### Voting Rules:
+- Users vote by locking OCT; longer and larger locks increase voting weight.
+- Voting outcomes require a specific approval threshold (e.g., supermajority).
+
+---
+
+# 6. Roadmap {/* {#section6} */}
+
+## 2025 Phase 1: Mainnet Launch and Ecosystem Kickoff {/* {#section6-1} */}
+
+- Launch mainnet, supporting OCT token, DID user system, and wallet integration.
 - Issue USDH stablecoin for cross-border payments and on-chain transactions.
-- Attract global validator nodes with reward programs to ensure network security.
-- Launch AscentOS-supported blockchain: OneChain.
-- Onboard initial applications in finance, entertainment, etc., activating 2 million existing users.
+- Attract global validator nodes with a node reward program to ensure network security.
+- Launch initial applications in finance and entertainment, activating 2 million existing users.
 
-## 2026 Phase 2: Ecosystem Expansion and Cross-Chain Collaboration {/* {#section7-2} */}
+## 2026 Phase 2: Ecosystem Expansion and Cross-Chain Collaboration {/* {#section6-2} */}
+
 - Become a leading global public chain supporting diverse scenarios.
-- Expand into retail, logistics, and other sectors, attracting partners.
+- Expand into industries like retail and logistics, attracting partners.
 - Implement cross-chain bridging for asset and data interoperability with other public chains.
-- Drive global market expansion, focusing on Southeast Asia, the Middle East, etc.
+- Drive global market expansion, focusing on Southeast Asia, the Middle East, and other regions.
 
-## 2027 Phase 3: Technical Optimization and Application Deepening {/* {#section7-3} */}
+## 2027 Phase 3: Technical Optimization and Application Deepening {/* {#section6-3} */}
+
 - Reach 30 million users and over 1,000 ecosystem applications.
-- Expand global markets, promoting enterprise-grade chain reform tools.
-- Optimize technical performance, enhancing transaction speed and privacy.
-- Deepen USDH applications in cross-border trade and payments.
-
-
-
-### Translation Notes:
-- **Accuracy and Context**: The translation preserves the technical and financial context of the whitepaper. Blockchain-specific terms like "DeFi," "stablecoin," "DPoS," "DAG," and "RWA" are retained as standard English terms. Chinese-specific references (e.g., "Yu’e Bao" for savings) are kept with explanations where necessary (e.g., "akin to Yu’e Bao").
-- **Headings and Anchors**: All headings retain their original anchors (e.g., `section1`, `section3-9-1`) as they are identifiers, not language-specific. Heading translations reflect the original structure and intent (e.g., "背景" → "Background").
-- **Formatting**: Markdown formatting (bold, italic, lists, tables, image tags) is preserved. Image references (e.g., `./image/cover.png`) and their captions remain unchanged.
-- **Natural Language**: The English translation is natural and professional, avoiding literal translations for idiomatic phrases. For example, "华尔街3.0" is translated as "Wall Street 3.0," and "链上身份证" is rendered as "on-chain ID card" for clarity.
-- **Cultural Nuances**: References to Chinese platforms (e.g., Alipay) are retained as proper nouns, while concepts like "余额宝年化8%*" are translated with context ("8% annualized yield* akin to Yu’e Bao").
-- **Artifact Details**:
-  - **artifact_id**: A new UUID (`e5b3a7f4-2c9d-4e1a-8f6b-9c4e3d8a2b1f`) for the translated document.
-  - **artifact_version_id**: A new UUID (`6d7e2f1a-9b4c-4f2b-8a3e-5f6b7c8d9e0a`) for this version.
-  - **title**: Updated to "Whitepaper with Anchors (English)" to reflect the translated content.
-  - **contentType**: Remains `text/markdown`.
-- **Completeness**: Every section, including headings, paragraphs, lists, tables, and case studies, has been translated. The "TODO" placeholder in section 3.11 ("Oracle") is retained as is, assuming it’s incomplete in the original.
-- **Consistency**: Technical terms are consistently translated (e.g., "去中心化身份证明" → "Decentralized Identity Proof (DID)"), and numerical data (e.g., "200,000 TPS," "10 billion tokens") are preserved accurately.
-
-This translated markdown file maintains the original structure, anchors, and intent while providing a clear, professional English version suitable for a global audience.
+- Expand global presence, promoting enterprise-grade blockchain tools.
+- Optimize technical performance, enhancing transaction speeds and privacy protection.
+- Deepen USDH adoption in cross-border trade and payments.
