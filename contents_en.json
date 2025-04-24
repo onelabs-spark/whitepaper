@@ -1,76 +1,76 @@
 [
   {
-    "title": "Background",
+    "title": "1. Background",
     "anchor": "section1",
-    "subsections": [
+    "children": [
       {
-        "title": "Wall Street 1.0: The Rise and Fall of Traditional Banking Systems",
+        "title": "1.1 Wall Street 1.0: The Rise and Fall of Traditional Banking Systems",
         "anchor": "section1-1"
       },
       {
-        "title": "Wall Street 2.0: The Rise and Limitations of Fintech",
+        "title": "1.2 Wall Street 2.0: The Rise and Limitations of Fintech",
         "anchor": "section1-2"
       },
       {
-        "title": "Wall Street 3.0: Decentralized Finance and the Public Chain Revolution",
+        "title": "1.3 Wall Street 3.0: Decentralized Finance and the Public Chain Revolution",
         "anchor": "section1-3"
       },
       {
-        "title": "ONECHAIN — Wall Street 3.0",
+        "title": "1.4 ONECHAIN — Wall Street 3.0",
         "anchor": "section1-4"
       }
     ]
   },
   {
-    "title": "Core Features and Characteristics",
+    "title": "2. Core Features and Characteristics",
     "anchor": "section2",
-    "subsections": [
+    "children": [
       {
-        "title": "High-Performance Transaction Support",
+        "title": "2.1 High-Performance Transaction Support",
         "anchor": "section2-1"
       },
       {
-        "title": "Developer-Friendly",
+        "title": "2.2 Developer-Friendly",
         "anchor": "section2-2"
       },
       {
-        "title": "User-Friendly",
+        "title": "2.3 User-Friendly",
         "anchor": "section2-3"
       },
       {
-        "title": "USDH - Interest-Bearing Stablecoin",
+        "title": "2.4 USDH - Interest-Bearing Stablecoin",
         "anchor": "section2-4"
       },
       {
-        "title": "Token System Based on Real-World Assets",
+        "title": "2.5 Token System Based on Real-World Assets",
         "anchor": "section2-5"
       },
       {
-        "title": "Node Mechanism",
+        "title": "2.6 Node Mechanism",
         "anchor": "section2-6"
       },
       {
-        "title": "Security and Trust Mechanisms",
+        "title": "2.7 Security and Trust Mechanisms",
         "anchor": "section2-7"
       },
       {
-        "title": "Scalability of Ecosystem Applications",
+        "title": "2.8 Scalability of Ecosystem Applications",
         "anchor": "section2-8"
       },
       {
-        "title": "Modular Configurable Privacy Strategies",
+        "title": "2.9 Modular Configurable Privacy Strategies",
         "anchor": "section2-9"
       }
     ]
   },
   {
-    "title": "Technical Architecture",
+    "title": "3. Technical Architecture",
     "anchor": "section3",
-    "subsections": [
+    "children": [
       {
-        "title": "Blockchain Infrastructure",
+        "title": "3.1 Blockchain Infrastructure",
         "anchor": "section3-1",
-        "subsections": [
+        "children": [
           {
             "title": "Storage Management",
             "anchor": "section3-1-1"
@@ -86,17 +86,17 @@
         ]
       },
       {
-        "title": "Consensus Layer",
+        "title": "3.2 Consensus Layer",
         "anchor": "section3-2"
       },
       {
-        "title": "Network Layer",
+        "title": "3.3 Network Layer",
         "anchor": "section3-3"
       },
       {
-        "title": "Application Layer",
+        "title": "3.4 Application Layer",
         "anchor": "section3-4",
-        "subsections": [
+        "children": [
           {
             "title": "Smart Contract Module",
             "anchor": "section3-4-1"
@@ -108,250 +108,216 @@
         ]
       },
       {
-        "title": "RPC Interface Layer",
+        "title": "3.5 RPC Interface Layer",
         "anchor": "section3-5"
       },
       {
-        "title": "User Interface Layer (DApps)",
+        "title": "3.6 User Interface Layer (DApps)",
         "anchor": "section3-6"
       },
       {
-        "title": "Consensus Mechanisms",
+        "title": "3.7 Consensus Mechanism",
         "anchor": "section3-7",
-        "subsections": [
+        "children": [
           {
-            "title": "DPoS (Delegated Proof-of-Stake)",
+            "title": "3.7.1 DPoS (Delegated Proof-of-Stake)",
             "anchor": "section3-7-1"
           },
           {
-            "title": "DAG Consensus Protocol",
+            "title": "3.7.2 DAG Consensus Protocol",
             "anchor": "section3-7-2"
           }
         ]
       },
       {
-        "title": "Checkpoint",
+        "title": "3.8 Checkpoint",
         "anchor": "section3-8",
-        "subsections": [
+        "children": [
           {
-            "title": "Checkpoint Generation Process",
+            "title": "3.8.1 Checkpoint Generation Process",
             "anchor": "section3-8-1"
           },
           {
-            "title": "Key Checkpoint Characteristics",
+            "title": "3.8.2 Key Checkpoint Characteristics",
             "anchor": "section3-8-2"
           }
         ]
       },
       {
-        "title": "DID: Decentralized Identity Proof",
+        "title": "3.9 DID: Decentralized Identity Proof",
         "anchor": "section3-9",
-        "subsections": [
+        "children": [
           {
-            "title": "Core Concept: Multiple Addresses, One Identity",
+            "title": "3.9.1 Core Concept: Multiple Addresses, One Identity",
             "anchor": "section3-9-1"
           },
           {
-            "title": "Technical Implementation: 13-Digit DID Number",
+            "title": "3.9.2 Technical Implementation: 13-Digit DID Number",
             "anchor": "section3-9-2"
           },
           {
-            "title": "OAUTH Identity Login: Web2.0 Convenience + Web3.0 Privacy",
+            "title": "3.9.3 OAUTH Identity Login: Web2.0 Convenience + Web3.0 Privacy",
             "anchor": "section3-9-3"
           },
           {
-            "title": "Design Highlights",
+            "title": "3.9.4 Design Highlights",
             "anchor": "section3-9-4"
           },
           {
-            "title": "User Value: One ID, Universal, Convenient, and Secure",
+            "title": "3.9.5 User Value: Universal ID, Convenient and Secure",
             "anchor": "section3-9-5"
           },
           {
-            "title": "Developer Value: Precise Services and Commercialization",
+            "title": "3.9.6 Developer Value: Precise Services and Commercialization",
             "anchor": "section3-9-6"
           },
           {
-            "title": "DID Alliance and Win-Win Ecosystem",
+            "title": "3.9.7 DID Alliance and Win-Win Ecosystem",
             "anchor": "section3-9-7"
           },
           {
-            "title": "Real-World Applications: DID in DeFi and NFTs",
+            "title": "3.9.8 Real-World Applications: DID in DeFi and NFTs",
             "anchor": "section3-9-8"
           }
         ]
       },
       {
-        "title": "Zero GAS: Lowering Barriers, Eliminating Web3 Obstacles",
+        "title": "3.10 Zero GAS: Lowering Barriers, Eliminating Web3 Usage Obstacles",
         "anchor": "section3-10",
-        "subsections": [
+        "children": [
           {
-            "title": "Core Concept: GAS is a Technical Barrier, Not a User Barrier",
+            "title": "3.10.1 Core Concept: GAS is a Technical Barrier, Not a User Barrier",
             "anchor": "section3-10-1"
           },
           {
-            "title": "Design Highlights: GAS Delegation SDK, Seamless On-Chain Operations",
+            "title": "3.10.2 Design Highlights: GAS Delegate SDK for Seamless On-Chain Operations",
             "anchor": "section3-10-2"
           },
           {
-            "title": "Case Studies: How OneChain Makes Blockchain 'Invisible'",
+            "title": "3.10.3 Scenario Examples: How OneChain Makes Blockchain “Invisible”",
             "anchor": "section3-10-3"
           },
           {
-            "title": "Value: User-Centric Blockchain is the Future",
+            "title": "3.10.4 Value: User-Centric Blockchain is the Future",
             "anchor": "section3-10-4"
           }
         ]
       },
       {
-        "title": "Oracle",
+        "title": "3.11 Oracle",
         "anchor": "section3-11"
       }
     ]
   },
   {
-    "title": "Node Strategy",
+    "title": "4. Application Services and Solutions",
     "anchor": "section4",
-    "subsections": [
+    "children": [
       {
-        "title": "Organizational Nodes - Ecosystem Network",
-        "anchor": "section4-1-1"
+        "title": "4.1 Wallet Services",
+        "anchor": "section4-1"
       },
       {
-        "title": "Application Nodes - Scenario Innovation",
-        "anchor": "section4-1-2"
+        "title": "4.2 Stablecoin Services",
+        "anchor": "section4-2"
       },
       {
-        "title": "Asset Nodes - Institutional Focus",
-        "anchor": "section4-1-3"
-      },
-      {
-        "title": "Node Incentive Mechanism - Foundation",
-        "anchor": "section4-1-4"
-      },
-      {
-        "title": "Node Incentive Mechanism - ONI (One Node Incentive)",
-        "anchor": "section4-1-5"
-      },
-      {
-        "title": "Node Ecosystem Co-Creation Program",
-        "anchor": "section4-1-6"
-      },
-      {
-        "title": "Node Exit Mechanism",
-        "anchor": "section4-1-7"
-      }
-    ]
-  },
-  {
-    "title": "Application Services and Solutions",
-    "anchor": "section5",
-    "subsections": [
-      {
-        "title": "Wallet Services",
-        "anchor": "section5-1"
-      },
-      {
-        "title": "Stablecoin Services",
-        "anchor": "section5-2"
-      },
-      {
-        "title": "RWA Structured Asset Services",
-        "anchor": "section5-3",
-        "subsections": [
+        "title": "4.3 RWA Structured Asset Services",
+        "anchor": "section4-3",
+        "children": [
           {
-            "title": "RWA",
-            "anchor": "section5-3-1"
+            "title": "4.3.1 RWA",
+            "anchor": "section4-3-1"
           },
           {
-            "title": "OneRWA: Connecting Real-World Assets with Web3.0 Issuance Platform",
-            "anchor": "section5-3-2"
+            "title": "4.3.2 OneRWA: Connecting Real-World Assets with Web3.0",
+            "anchor": "section4-3-2"
           },
           {
-            "title": "Core Capabilities",
-            "anchor": "section5-3-3"
+            "title": "4.3.3 Core Capabilities",
+            "anchor": "section4-3-3"
           },
           {
-            "title": "Real-World Applications: Solving Pain Points for Enterprises and Users",
-            "anchor": "section5-3-4"
+            "title": "4.3.4 Real-World Applications: Solving Practical Pain Points for Businesses and Users",
+            "anchor": "section4-3-4"
           },
           {
-            "title": "RWA Structured Innovation: Enabling 'Composition,' 'Pricing,' and 'Tradability' for Real Assets",
-            "anchor": "section5-3-5"
+            "title": "4.3.5 RWA Structural Innovations: Enabling “Composition,” “Pricing,” and “Tradability” for Real Assets",
+            "anchor": "section4-3-5"
           }
         ]
       },
       {
-        "title": "E-Commerce Cashback",
+        "title": "4.4 E-Commerce Cashback",
+        "anchor": "section4-4"
+      },
+      {
+        "title": "4.5 Decentralized Exchange Services",
+        "anchor": "section4-5"
+      },
+      {
+        "title": "4.6 Cross-Chain Asset Services",
+        "anchor": "section4-6"
+      },
+      {
+        "title": "4.7 User Identity Management and Data Interoperability Services",
+        "anchor": "section4-7"
+      },
+      {
+        "title": "4.8 Staking and Lending Services",
+        "anchor": "section4-8"
+      },
+      {
+        "title": "4.9 Entertainment and Gaming Asset Services",
+        "anchor": "section4-9"
+      },
+      {
+        "title": "4.10 Simplified Gaming Asset Services",
+        "anchor": "section4-10"
+      }
+    ]
+  },
+  {
+    "title": "5. Token Economics",
+    "anchor": "section5",
+    "children": [
+      {
+        "title": "5.1 OCT Token Overview",
+        "anchor": "section5-1"
+      },
+      {
+        "title": "5.2 OCT Token Use Cases",
+        "anchor": "section5-2"
+      },
+      {
+        "title": "5.3 OCT Token Allocation",
+        "anchor": "section5-3"
+      },
+      {
+        "title": "5.4 OCT TGE",
         "anchor": "section5-4"
       },
       {
-        "title": "Decentralized Exchange Services",
+        "title": "5.5 On-Chain Governance",
         "anchor": "section5-5"
-      },
-      {
-        "title": "Cross-Chain Asset Services",
-        "anchor": "section5-6"
-      },
-      {
-        "title": "User Identity Management and Data Interoperability Services",
-        "anchor": "section5-7"
-      },
-      {
-        "title": "Staking and Lending Services",
-        "anchor": "section5-8"
-      },
-      {
-        "title": "Entertainment and Gaming Asset Services",
-        "anchor": "section5-9"
-      },
-      {
-        "title": "Simplified Gaming Asset Services",
-        "anchor": "section5-10"
       }
     ]
   },
   {
-    "title": "Token Economics",
+    "title": "6. Roadmap",
     "anchor": "section6",
-    "subsections": [
+    "children": [
       {
-        "title": "OCT Token Overview",
+        "title": "2025 Phase 1: Mainnet Launch and Ecosystem Kickoff",
         "anchor": "section6-1"
       },
       {
-        "title": "OCT Token Use Cases",
+        "title": "2026 Phase 2: Ecosystem Expansion and Cross-Chain Collaboration",
         "anchor": "section6-2"
       },
       {
-        "title": "OCT Token Allocation",
-        "anchor": "section6-3"
-      },
-      {
-        "title": "OCT TGE",
-        "anchor": "section6-4"
-      },
-      {
-        "title": "On-Chain Governance",
-        "anchor": "section6-5"
-      }
-    ]
-  },
-  {
-    "title": "Roadmap",
-    "anchor": "section7",
-    "subsections": [
-      {
-        "title": "2025 Phase 1: Mainnet Launch and Ecosystem Activation",
-        "anchor": "section7-1"
-      },
-      {
-        "title": "2026 Phase 2: Ecosystem Expansion and Cross-Chain Collaboration",
-        "anchor": "section7-2"
-      },
-      {
         "title": "2027 Phase 3: Technical Optimization and Application Deepening",
-        "anchor": "section7-3"
+        "anchor": "section6-3"
       }
     ]
   }
