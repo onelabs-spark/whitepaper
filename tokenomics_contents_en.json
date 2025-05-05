@@ -6,38 +6,10 @@
     {
       "name": "1. OCT Token Overview",
       "anchor": "section5-1",
-      "children": [
-        {
-          "name": "Total Supply: 10 Billion Tokens",
-          "anchor": null
-        },
-        {
-          "name": "Token Features: OCT is OneChain’s native token with the following core functions:",
-          "anchor": null
-        }
-      ]
     },
     {
       "name": "2. OCT Token Use Cases",
       "anchor": "section5-2",
-      "children": [
-        {
-          "name": "On-Chain Transactions and Payments:",
-          "anchor": null
-        },
-        {
-          "name": "Mining Rewards:",
-          "anchor": null
-        },
-        {
-          "name": "Ecosystem Support:",
-          "anchor": null
-        },
-        {
-          "name": "On-Chain Governance:",
-          "anchor": null
-        }
-      ]
     },
     {
       "name": "3. OCT Token Allocation",
@@ -50,23 +22,5 @@
     {
       "name": "5. On-Chain Governance",
       "anchor": "section5-5",
-      "children": [
-        {
-          "name": "OneChain’s governance system is referendum-based, allowing anyone to submit proposals, which are finalized through community voting. Voting rights are held by OCT holders, with weight tied to the amount and duration of locked OCT (belief multiplier). Nodes (validators) do not directly vote but can participate indirectly by holding OCT.",
-          "anchor": null
-        },
-        {
-          "name": "Proposal Submission:",
-          "anchor": null
-        },
-        {
-          "name": "Referendum Process:",
-          "anchor": null
-        },
-        {
-          "name": "Voting Rules:",
-          "anchor": null
-        }
-      ]
     }
   ]
