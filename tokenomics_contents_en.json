@@ -2,14 +2,14 @@
     {
       "name": "Tokenomics",
       "anchor": "section5",
-    },
+   
           "children": [
         {
           "name": "OneChain节点不仅是技术运行的基础，更是生态共创的核心参与者。",
           "anchor": "section6-1"
         }
       ]
-
+ },
     {
       "name": "1. OCT Token Overview",
       "anchor": "section5-1",
