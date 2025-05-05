@@ -22,22 +22,10 @@
     },
     {
       "name": "6. 节点生态共创计划",
-      "anchor": "section6",
-      "children": [
-        {
-          "name": "OneChain节点不仅是技术运行的基础，更是生态共创的核心参与者。",
-          "anchor": "section6-1"
-        }
-      ]
+      "anchor": "section6"
     },
     {
       "name": "7. 节点退出机制",
-      "anchor": "section7",
-      "children": [
-        {
-          "name": "为保障网络的稳定性和安全性，OneChain制定了严格的节点退出机制。",
-          "anchor": "section7-1"
-        }
-      ]
+      "anchor": "section7"
     }
   ]
