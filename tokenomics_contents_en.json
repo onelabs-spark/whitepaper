@@ -1,15 +1,15 @@
 [
     {
       "name": "Tokenomics",
-      "anchor": "section5",
+      "anchor": "section5"
     },
     {
       "name": "1. OCT Token Overview",
-      "anchor": "section5-1",
+      "anchor": "section5-1"
     },
     {
       "name": "2. OCT Token Use Cases",
-      "anchor": "section5-2",
+      "anchor": "section5-2"
     },
     {
       "name": "3. OCT Token Allocation",
@@ -21,6 +21,6 @@
     },
     {
       "name": "5. On-Chain Governance",
-      "anchor": "section5-5",
+      "anchor": "section5-5"
     }
   ]
