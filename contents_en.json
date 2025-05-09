@@ -186,20 +186,24 @@
         "anchor": "section3-10",
         "children": [
           {
-            "name": "3.10.1 Core Concept: GAS is a Technical Barrier, Not a User Barrier",
+            "name": "3.10.1 Core Concept",
             "anchor": "section3-10-1"
           },
           {
-            "name": "3.10.2 Design Highlights: GAS Delegate SDK for Seamless On-Chain Operations",
+            "name": "3.10.2 Design Highlights",
             "anchor": "section3-10-2"
           },
           {
-            "name": "3.10.3 Scenario Examples: How OneChain Makes Blockchain “Invisible”",
+            "name": "3.10.3 Scenario 1",
             "anchor": "section3-10-3"
           },
           {
-            "name": "3.10.4 Value: User-Centric Blockchain is the Future",
+            "name": "3.10.4 Scenario 2",
             "anchor": "section3-10-4"
+          },
+          {
+            "name": "3.10.5 Value: User-Centric Blockchain is the Future",
+            "anchor": "section3-10-5"
           }
         ]
       },
